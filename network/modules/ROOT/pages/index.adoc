@@ -1,0 +1,5 @@
+= Übersicht
+
+Herzlich willkommen auf der Dokumentationsseite der Infrastruktur der Familie Bergmann.
+
+Hier werde ich versuchen kurz dar zu legen wie unsere Infrastruktur funktioniert. Das soll hauptsächlich dazu dienen meinem zukünftigen Ich eine Gedankenstütze zu sein.

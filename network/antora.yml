@@ -1,0 +1,7 @@
+name: network
+title: Netzwerk
+version: master
+display_version: WIP
+start_page: ROOT:overview.adoc
+nav:
+- modules/ROOT/nav.adoc
