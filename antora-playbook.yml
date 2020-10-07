@@ -1,14 +1,15 @@
 site:
   title: Bergmann Infrastruktur Dokumentation
   url: https://doku.bergmann.click
-  start_page: network::index.adoc
+  start_page: network::overview.adoc
 content:
   sources:
-  - url: ./network
+  - url: .
     branches: HEAD
     # setting edit_url to false disables the Edit this Page link for any page that originates from this repository
     # the same thing can be achieved by adding empty credentials (i.e., @) in front of the domain in the URL
     edit_url: false
+    start_paths: network
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
