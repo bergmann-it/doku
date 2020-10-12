@@ -1,0 +1,21 @@
+= Clemens Bergmann Emergency Recovery Plan
+
+Sollte es mir irgendwann so schlecht gehen, dass meine Familie auf unsere Infrastruktur zugreifen müsste stellt dieser Plan sicher, dass das möglich ist. 
+Zum allgemeinen Verständniss der Infrastruktur dient diese gesammte Dokumentation. Der Recovery Plan ist in drei Stufen aufgeteilt. 
+
+== Stufe 1 - Bootstrap
+
+Stufe 1 dient dazu Zugang zu den wichtigsten Zugangsdaten zu erlangen. Diese sind im link:https://bergmann.1password.eu[1password] gespeichert. Um dazu zugang zu gelangen gibt es einen extra dafür angelegten Gast-Benutzer mit Zugang zu einem speziellen Vault "Clemens Emergency Recovery". Die Zugangsdaten zu diesem Benutzer sind ausgedruckt in einem versiegelten Umschlag an zwei Stellen hinterlegt:
+
+* Bei meinen Eltern
+* Im Order "Dokumente" in unserem Büro
+
+In diesem Vault existiert eine Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" mit den Details zu Stufe 2.
+
+== Stufe 2 - Zugangsdaten
+
+Mit Stufe 1 hat man Zugang zur sicheren Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" im 1password Vault "Clemens Emergency Recovery" erlangt. In diesem sind die wichtigsten Zugangsdaten beschrieben und es wird auf diese Seite verlinkt.
+
+== Stufe 3 - Dokumentation
+
+Als dritte "Stufe" dient diese gesammte Dokumentationsseite. Sie soll dem "Erben" ermöglichen einen umfassenden Überblick über die von mir konfigurierte Infrastruktur zu bekommen und auf alle wichtigen Teile Zugang zu erlangen. 
