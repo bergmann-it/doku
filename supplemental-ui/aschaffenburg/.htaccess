@@ -1,0 +1,6 @@
+#Access to some files only with password
+
+AuthType Basic
+AuthName "Aschaffenburg Dokumentation"
+require valid-user
+AuthUserFile /var/www/virtual/cbergman/dokupasswd
