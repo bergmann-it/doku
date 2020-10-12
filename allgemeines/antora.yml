@@ -1,5 +1,5 @@
-name: it
-title: IT
+name: allgemeines
+title: Allgemeines
 version: master
 display_version: WIP
 start_page: ROOT:index.adoc
