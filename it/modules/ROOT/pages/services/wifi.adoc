@@ -1,0 +1,30 @@
+= WLAN
+
+== Hardware
+
+Das Wifi Netzwerk besteht zu einen aus dem Unifi Controller welcher auf dem xref:homepi.adoc[Homepi] läuft und aus zwei link:https://www.ui.com/unifi/unifi-ap-ac-lite/[Unifi AP AC lite].
+
+== Controller
+
+Als Controller läuft auf dem xref:homepi.adoc[Homepi] die Unifi Controller Software. Diese ist unter https://unifi.bergmann.click/ zu erreichen. Dort kann man unter anderem folgendes einsehen/konfigurieren:
+
+* Konfigrierte WLANs
+* Accesspoints
+* Verbundene Clients
+
+== SSIDs
+
+Aktuell werden die folgenden Wifi Netzwerke zur Verfügung gestellt:
+
+=== bergmann
+
+Das "bergmann" Netzwerk ist das Hauptnetzwerk. Es ist per WPA2-Entperise gesichert. Man meldet sich also mit Benutzername und Passwort an. Jedes Fafmilienmitglied hat einen persönlichen Login. Außerdem gibt es einen Gast-Login welcher wie das Netzwerk "bergmann_unsicher" Netzwerk verhält und das VLAN 40 verwendet.
+Das WLAN authentifiziert sich gegen ein Freeradius-Server welcher auf dem xref:homepi.adoc[Homepi] läuft. Details siehe dort.
+
+=== bergmann_unsicher
+
+Das "bergmann_unsicher" Netzwerk hat diesen Namen weil es unverschlüsselt ist. Es ist ein einfaches Gastnetz. Vor Benutzung muss ein Gast eine Vorschaltseite akzeptieren. Dort wird er unter anderem darauf hingewiesen, keinen Unfig zu treiben und doch bitte, wenn möglich, das verschlüsselte Netzwerk "bergmann" mit den Gastzugangsdaten zu nutzen. Vom Gast-netzwerk kommt man nicht auf das "bergmann" Netzwerk. Umgekehrt aber schon. Ansonsten ist das Gastnetzwerk nicht eingeschränkt. Dieses Netz verwendet das WLAN 41.
+
+=== bergmann_iot
+
+Das "bergmann_iot" Netzwerk dient zur Anbindung von Geräten welche kein WPA2-Enterprise können oder welchen ich zu wenig vertraue um sie in mein "internes" Netz zu lassen. Wie beim Gast-netzwerk können die Geräte dort nur mit dem Internet kommunizieren. Außerdem ist die Bandbreite für die Geräte defaultmäßig begrenzt. Das kann aber pro Gerät im Unifi controller überschrieben werden. Dieses Nzet verwendet das VLAN 30.

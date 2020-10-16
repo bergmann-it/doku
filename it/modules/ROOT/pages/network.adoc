@@ -45,7 +45,7 @@ vlan:
 
 == Uplink
 
-Der Uplink ist eine DOCSIS Leitung von Vodafone (ehemals Unitymedia)
+Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerkonto/login/zugangsdaten[Vodafone] (ehemals Unitymedia).
 
 == Subnezte
 
@@ -59,5 +59,24 @@ Es gibt die folgenden Subnetze:
 |40      |Gäste-Netz                |192.168.3.0/24
 |41      |Kabelgebundenes Gästenetz |192.168.4.0/24
 |N/A     |OpenVPN                   |192.168.5.0/24
+
+|===
+
+== WLAN
+
+Details zum wlan finden sich auf einer extra Seite: xref:services/wifi.adoc[Wifi]
+
+== Hosts
+
+Fast alle Hosts bekommen ihre Adressen per DHCP vergeben. Einige der Geräte bekommen über den DHCP statische Adressen zugewiesen bzw. haben diese statisch konfiguriert. Details zu den konfigurierten hosts finden sich im link:https://gw-1.bergmann.click/[Router].
+Unten die wichtigsten Hosts im Überblick:
+
+|===
+|Host                                      |IP            |Dokumentation
+
+|link:https://gw-1.bergmann.click/[Router] |192.168.1.254 |
+|link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244 |
+|Homepi                                    |192.168.1.250 |xref:homepi.adoc[Homepi]
+|link:http://192.168.1.245/[Switch]        |192.168.1.245 |
 
 |=== 

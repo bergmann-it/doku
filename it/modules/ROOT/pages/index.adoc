@@ -3,3 +3,14 @@
 Herzlich willkommen auf der Dokumentationsseite der Infrastruktur der Familie Bergmann.
 
 Hier werde ich versuchen kurz dar zu legen wie unsere Infrastruktur funktioniert. Das soll hauptsächlich dazu dienen meinem zukünftigen Ich eine Gedankenstütze zu sein.
+
+Die Infrastruktur ist auf zwei Standorte aufgeteilt:
+
+* Das xref:network.adoc[Netzwerk] bei uns zuhause. 
+* Der Webspace xref:uberspace.adoc[Uberspace].
+
+Dort werden die folgendne Dienste zur Verfügung gestellt:
+
+include::partial$services.adoc[]
+
+NOTE: Für die meisten der Dienste und Geräte werden Zugangsdaten benötigt. Diese finden sich alle im link:https://bergmann.1password.eu[1Password]. Der xref:allgemeines::disaster_recovery/index.adoc[Disaster Recovery Plan] beschreibt wie man im Notfall darauf Zugriff bekommt.
