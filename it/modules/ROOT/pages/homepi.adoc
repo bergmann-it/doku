@@ -1,1 +1,71 @@
 = Homepi
+
+Der Homepi ist der zentrale Server im lokalen Netzwerk. Er befindet sich im Keller auf dem "Netzwerkschrank". 
+
+== Hardware
+
+Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/[Raspberry Pi 3 B Plus].
+Zur besseren Ausfallsicherheit ist der Homepi mit einer externen SSD als Festplatte ausgestattet. Das ist schneller und zuverlässiger als eine SD-Karte.
+Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu Auf der Seite xref:services/smart_home.adoc[Smart Home].
+
+== Netzwerk
+
+Der Homepi ist mit einem Kabel mit dem Router verbunden. Er ist sowohl mit der IP 192.168.1.250 im "Hauptnetz" als auch mit der IP 192.168.2.250 im IoT Netzwerk.
+
+== Software
+
+=== Betriebssystem
+
+Aktuell läuft auf dem Homepi ein Raspbian 10.
+
+=== Services
+
+Folgende Dienste laufen auf dem Homepi:
+
+|===
+|Dienst |Software |Config-File |Details
+
+|link:https://hass.bergmann.click[Smart Home Zentrale]
+|link:https://www.home-assistant.io/[Home Assistant]
+|+/home/homeassistant/.homeassistant/configuration.yaml+
+|xref:services/smart_home.adoc[Smart Home]
+
+|Zabbix Proxy
+|link:https://www.zabbix.org[Zabbix] Proxy
+|+/etc/zabbix/zabbix_proxy.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|Zabbix Agent
+|link:https://www.zabbix.org[Zabbix] Agent
+|+/etc/zabbix/zabbix_agent2.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|Unifi Proxy for Monitoring
+|link:https://github.com/zbx-sadman/unifi_proxy[Unifi Proxy]
+|+/etc/unifi_proxy/unifi_proxy.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|Radius Server für Wifi
+|link:https://freeradius.org[freeRADIUS]
+|+/etc/freeradius/3.0/radiusd.conf+
+|xref:services/wifi.adoc[Wifi]
+
+|link:https://unifi.bergmann.click[Wifi Controller]
+|link:https://www.ui.com/software/[Unifi Controller]
+|+/var/lib/unifi+
+|xref:services/wifi.adoc[Wifi]
+
+|Mumble Server
+|link:https://wiki.mumble.info/wiki/Murmurguide[Mumble Murmur]
+|+/etc/mumble-server.ini+
+|xref:services/mumble.adoc[Mumble]
+
+|Reverse Proxy
+|link:https://www.nginx.com/[NGINX]
+|+/etc/nginx/nginx.conf+
+|
+
+
+
+|===
+

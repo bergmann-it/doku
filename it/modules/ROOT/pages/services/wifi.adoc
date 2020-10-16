@@ -14,7 +14,7 @@ Als Controller läuft auf dem xref:homepi.adoc[Homepi] die Unifi Controller Soft
 
 == SSIDs
 
-Aktuell werden die folgenden Wifi Netzwerke zur Verfügung gestellt:
+Aktuell werden die folgenden Wifi Netzwerke zur Verfügung gestellt. Alle Netze werden per 2.4 und 5 Ghz angeboten.
 
 === bergmann
 
