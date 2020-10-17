@@ -30,6 +30,11 @@ Folgende Dienste laufen auf dem Homepi:
 |+/home/homeassistant/.homeassistant/configuration.yaml+
 |xref:services/smart_home.adoc[Smart Home]
 
+|link:https://deconz.bergmann.click[Zigbee Zentrale]
+|link:https://phoscon.de/de/app/doc[Phoscon App]
+|
+|xref:services/smart_home.adoc[Smart Home]
+
 |Zabbix Proxy
 |link:https://www.zabbix.org[Zabbix] Proxy
 |+/etc/zabbix/zabbix_proxy.conf+
@@ -43,6 +48,11 @@ Folgende Dienste laufen auf dem Homepi:
 |Unifi Proxy for Monitoring
 |link:https://github.com/zbx-sadman/unifi_proxy[Unifi Proxy]
 |+/etc/unifi_proxy/unifi_proxy.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|Syslog Daemon
+|link:https://www.rsyslog.com/doc[rsyslogd]
+|+/etc/rsyslog.conf+
 |xref:services/monitoring.adoc[Monitoring]
 
 |Radius Server für Wifi
@@ -65,7 +75,14 @@ Folgende Dienste laufen auf dem Homepi:
 |+/etc/nginx/nginx.conf+
 |
 
+|link:https://torrents.bergmann.click/[Bittorrent Server]
+|link:https://dev.deluge-torrent.org/wiki/UserGuide/Service[deluged und deluge-web]
+|+/var/lib/deluge/.config/deluge+
+|xref:services/bittorrent.adoc[Bittorent]
 
+|link:https://pihole.bergmann.click/admin[Pihole DNS Filter]
+|link:https://pi-hole.net/[PI-hole]
+|+/etc/pihole/setupVars.conf+
+|xref:services/dns_filter.adoc[DNS Filter]
 
 |===
-
