@@ -1,1 +1,67 @@
 = Uberspace
+
+Zum hosten von aufwendigeren oder global erreichbaren Diensten (z.B. Webhosting, E-Mail) verfügen wir über einen Account beim Hoster link:https://uberspace.de[uberspace].
+Aktuell handelt es sich um einen Uberspace der Version 7.
+Details zum setup dort gibt es in der link:https://manual.uberspace.de/[Uberspace dokumentation]. Anleitungen zur konfiguration verschiedener Services finden sich im link:https://lab.uberspace.de/[Uberlab].
+
+== Abrechung
+
+Der Uberspace wird mit 5€ im Monat mit einem Dauerauftrag bezahlt.
+
+== Software
+
+=== Betriebssystem
+
+Der uberspace läuft auf Centos 7. Wir sind "nur" ein normaler User. 
+
+=== Services
+
+Folgende Dienste laufen auf dem uberspace:
+
+|===
+|Dienst |Software |Config-File |Details
+
+|Mails
+|Uberspace Mail
+|
+|xref:services/mails.adoc[Mails]
+
+|Websites
+|link:https://manual.uberspace.de/background-http-stack.html[Uberspace HTTP Stack]
+|+/var/www/virtual/cbergman+
+|xref:services/websites.adoc[Websites]
+
+|link:https://zabbix.bergmann.click[Zabbix Server]
+|link:https://www.zabbix.org[Zabbix] Server
+|+/home/cbergman/opt/zabbix/etc/zabbix_server.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|Zabbix Agent
+|link:https://www.zabbix.org[Zabbix] Agent
+|+/home/cbergman/opt/zabbix/etc/zabbix_agent2.conf+
+|xref:services/monitoring.adoc[Monitoring]
+
+|link:https://doku.bergmann.click[Bergmann Dokumentation]
+|link:https://antora.org/[Antora]
+|+/home/cbergman/doku+
+|xref:services/doku.adoc[Doku]
+
+|link:https://cloud.cbergmann.net[cbergmann Cloud]
+|link:https://doc.owncloud.com[owncloud]
+|+/var/www/virtual/cbergman/cloud.cbergmann.net/config/config.php+
+|xref:services/cloud.adoc[Cloud]
+
+|Firefox Sync
+|link:https://github.com/mozilla-services/syncserver[Mozilla syncserver]
+|+/home/cbergman/syncserver/syncserver.ini+
+|xref:services/ffsync.adoc[ffsync]
+
+|link:https://genealogie.bergmann.click[Bergmann Genealogie]
+|link:https://www.humo-gen.com[HuMoGen]
+|+/var/www/virtual/cbergman/genealogie.bergmann.click/include/db_login.php+
+|xref:services/genealogie.adoc[genealogie]
+
+
+
+
+|===
