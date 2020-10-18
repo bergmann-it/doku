@@ -4,7 +4,7 @@ Herzlich willkommen auf der Dokumentationsseite der Familie Bergmann.
 
 Diese Seite ist in verschiedene Bereiche aufgeteilt:
 
-* Allgemeine Informationen finden sich im Bereich xref:allgemeines::index.adoc[allgemeines].
+* Allgemeine Informationen (incl. xref:allgemeines::disaster_recovery/index.adoc[Emergency Recovery Plan]) finden sich im Bereich xref:allgemeines::index.adoc[allgemeines].
 * Informationen zur IT in Darmstadt finden sich im Bereich xref:it::index.adoc[IT].
 * Informationen zur IT in Aschaffenburg finden sich im Bereich xref:aschaffenburg::index.adoc[Aschaffenburg].
 
