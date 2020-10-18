@@ -1,3 +1,5 @@
 ** xref:services/monitoring.adoc[Monitoring]
 ** xref:services/wifi.adoc[Wifi]
 ** xref:services/smart_home.adoc[Smart Home]
+** xref:services/minecraft.adoc[Minecraft]
+** xref:services/onedrive.adoc[Onedrive]

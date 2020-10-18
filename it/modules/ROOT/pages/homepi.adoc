@@ -11,6 +11,7 @@ Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart 
 == Netzwerk
 
 Der Homepi ist mit einem Kabel mit dem Router verbunden. Er ist sowohl mit der IP 192.168.1.250 im "Hauptnetz" als auch mit der IP 192.168.2.250 im IoT Netzwerk.
+Per SSH ist der Host sowohl von innerhalb des Netztes als auch aus dem Internet unter dem Host +homepi.bergmann.click+ zu erreichen. Die Zugangsdaten befinden sich im 1password. 
 
 == Software
 
