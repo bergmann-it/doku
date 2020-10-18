@@ -1,3 +1,60 @@
 = Smart Home
 
+Zur Automatisierung und bequemen Steuerung der Funktionen unseres Hauses (z.B Licht, Heizung, etc.) sind einige der Komponenten "smart".
+Das bedeutet sie können elektronisch ferngesteuert werden.
+
+== Zentrale
+
+Bei der Erstellung dieses Smart-Homes war es mein Bestreben, dass so wenige Daten wie möglich nach außen gelangen.
+Daher werden alle Geräte lokale vom xref:homepi.adoc[Homepi] und daran angeschlossenen Schnittstellen gesteuert.
+Zur Verwaltung und Steuerung verwenden wir die Software link:https://home-assistant.io[Home Assistant] welche unter https://hass.bergmann.click sowohl von innerhalb als auch aus dem Internet erreichbar ist. Jedes Familienmitglied hat seinen eigenen Zugang mit verschiedenen Rechten.
+
+== Z-Wave
+
+Einige der Komponenten sind per link:https://de.wikipedia.org/wiki/Z-Wave[Z-Wave] vernetzt.
+Dazu ist am Homepi ein link:https://aeotec.com/z-wave-usb-stick[AEON Labs ZW090 Z-Stick Gen5 EU] USB Stick angeschlossen der als Zentrale des Z-Wave Netztes dient.
+Geräte können direkt über link:https://hass.bergmann.click/config/zwave[Home Assistant] verwaltet werden.
+
+Aktuell sind folgende Geräte so angeschlossen:
+
+=== Thermostate
+
+An den Heizkörpern im Haus sind link:https://www.devolo.de/devolo-home-control-heizkoerperthermostat[Devolo Home Control Heizkörperthermostate] angeschlossen. Diese können sowohl die Temparatur messen als auch steuern.
+
+=== Smarte Steckdosen/Repeater
+
+Da das Haus recht groß ist und der Homepi im Keller steht können nicht alle Thermostate den Homepi direkt erreichen. Daher können dauerhaft mit Strom versorgte Z-Wave Geräte als Repeater dienen. Die Thermostate können das nicht, da sie Batteriegetrieben sind und daher zum Stromsparen nur in regelmäßigen Abständen aufwachen und über das Netz ihre konfiguration abfragen und Werte abliefern. Für ein stabiles Netz haben wir daher zwei link:https://www.szneo.com/en/products/show.php?id=189[Z-Wave Steckdosen] im Wohnzimmer und Arbeitszimmer die als Repeater dienen. 
+
+== Zigbee
+
+Einige der Komponenten sind per link:https://de.wikipedia.org/wiki/ZigBee[Zigbee] vernetzt.
+Dazu ist am Homepi ein link:https://www.phoscon.de/de/conbee2[conbee II] USB Stick angeschlossen der als Zentrale des Zigbee Netztes dient.
+Neue Komponenten können über die link:https://phoscon.de/de/app/doc[Phoscon App] welche unter https://deconz.bergmann.click erreichbar ist hinzugefügt werden.
+Ebenso können dort Gruppen mit Schalter und Bewegungsmelder-Konfigurtionen verwaltet werden. Diese Geräte tauchen dann als Entities in Home Assistant auf.
+
+Aktuell sind folgende Geräte so angeschlossen:
+
+=== Lampen und Schalter
+
+Fast alle Leuchtmittel im Haus sind "smarte" Leuchtmittel aus der Serie link:https://www.ikea.com/de/de/cat/ikea-home-smart-beleuchtung-36812/["Tradfri"] von IKEA.
+Ebenso finden sich im Haus die entsprechenden Schalter, Dimmer und Bewegungsmelder von Tradfri.
+
+=== Thermometer/Luftqualität
+
+In jedem Zimmer wird die Temparatur über die Thermostate gemessen.
+Da Leonards Heizkörper auf dem Zwischengeschoss zum Dachgeschoss ist kann es (vor allem im Sommer) vorkommen, dass die Temparatur zwischen Heizkörper und Zimmer recht stark abweicht.
+Daher ist dort zusätzlich ein link:https://www.amazon.de/dp/B07SB2C327[Aquara Multisensor angebracht]. Dieser misst Temparatur, Luftfeuchte und Luftdruck.
+
+== Wifi
+
+Einige Komponenten sind direkt per xref:wifi.adoc[wlan] angeschlossen. 
+
+=== Smarte Steckdosen
+
+WLAN Steckdosen sind häufig günstiger als Z-wave oder Zigbee Steckdosen.
+Daher haben wir zwei link:https://www.amazon.de/dp/B089LRRZNN[dieser Steckdosen].
+Auf den Steckdosen wurde link:https://esphome.io[ESPHome] entsprechend link:https://frenck.dev/calibrating-an-esphome-flashed-power-plug/[dieser Anleitung] installiert.
+
+== Sprachsteuerung
+
 
