@@ -17,10 +17,10 @@ Der Server horcht auf Port +25575+ auf das minecraft rcon Protokoll. Das Passwor
 Damit man auch spielen kann, wenn man z.B. im Urlaub ist, ist der Rechner so konfiguriert, dass man ihn auch von remote starten kann.
 Dazu geht man wie folgt vor:
 
-1. Verbinden per ssh mit dem xref:homepi.adoc[Homepi].
-1. Den Rechner per etherwake aufwecken: +etherwake 70:85:c2:bd:8c:0e+
-1. Per link:https://teamviewer.com[Teamviewer] verbinden. Zugansdaten sind unter "Teamviewer neuesding" im 1password.
-1. Login mit einem User.
-1. Starten des entsprechenden Servers mittels z.b. +c:\minecraft_server\dorfleben.bat+.
+. Verbinden per ssh mit dem xref:homepi.adoc[Homepi].
+. Den Rechner per etherwake aufwecken: +etherwake 70:85:c2:bd:8c:0e+
+. Per link:https://teamviewer.com[Teamviewer] verbinden. Zugansdaten sind unter "Teamviewer neuesding" im 1password.
+. Login mit einem User.
+. Starten des entsprechenden Servers mittels z.b. +c:\minecraft_server\dorfleben.bat+.
 
 NOTE: Um das Spiel nicht zu unterbrechen wird die Stromsparfunktion des Rechners beim Start des Servers abgeschaltet. Daher ist es wichtig, nach dem Spiel den Server zu stoppen und den Rechner herunter zu fahren um Strom zu sparen.
