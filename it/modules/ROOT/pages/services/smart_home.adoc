@@ -57,4 +57,4 @@ Auf den Steckdosen wurde link:https://esphome.io[ESPHome] entsprechend link:http
 
 == Sprachsteuerung
 
-
+Um die Smart-Home Geräte auch per Sprache steuern zu können ist eine xref:services/alexa.adoc[Alexa] Anbindung entsprechend link:https://www.home-assistant.io/integrations/alexa.smart_home/[dieser Anleitung] konfiguriert. 
