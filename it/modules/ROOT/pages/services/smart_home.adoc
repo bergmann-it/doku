@@ -47,7 +47,7 @@ Daher ist dort zusätzlich ein link:https://www.amazon.de/dp/B07SB2C327[Aquara M
 
 == Wifi
 
-Einige Komponenten sind direkt per xref:wifi.adoc[wlan] angeschlossen. 
+Einige Komponenten sind direkt per xref:services/wifi.adoc[wlan] angeschlossen. 
 
 === Smarte Steckdosen
 
