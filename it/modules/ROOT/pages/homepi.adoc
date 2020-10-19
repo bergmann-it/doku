@@ -6,7 +6,7 @@ Der Homepi ist der zentrale Server im lokalen Netzwerk. Er befindet sich im Kell
 
 Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/[Raspberry Pi 3 B Plus].
 Zur besseren Ausfallsicherheit ist der Homepi mit einer externen SSD als Festplatte ausgestattet. Das ist schneller und zuverlässiger als eine SD-Karte.
-Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu Auf der Seite xref:services/smart_home.adoc[Smart Home].
+Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu auf der Seite xref:services/smart_home.adoc[Smart Home].
 
 == Netzwerk
 
