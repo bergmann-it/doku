@@ -1,0 +1,74 @@
+= Smart Home Naming
+
+Um bei der Vielzahl der Devices und Entities im Home Assistant den Überblick nicht zu verlieren sind diese nach einem einheitlichen Schema benannt.
+
+== Entities
+
+Entities sind im Home Assitant immer im Format `<domain>.<entityname>` benannt. 
+Dieses Format wird bei uns in folgender Weise erweitert: `<domain>.<geräteart>_<bezeichnung>`
+Für Geräte mit festem Standort wird dieses Format wiederum erweitert: `<domain>.<geräteart>_<raum>_<stockwerk>[_<erweiterung>]`
+
+Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
+
+|===
+|Geräteart |Kürzel
+
+|Lampe     |`lampe`
+|Leuchte   |`leuchte`
+|Schalter  |`schalter`
+|Bewegungsmelder  |`melder`
+|Server  |`server`
+|Mobiltelefon  |`phone`
+|Tablet  |`tablet`
+|Amazon Echo|`echo`
+|Router|`router`
+|Fire TV|`firetv`
+|Multisensor (z.B. Raumluft)|`multi`
+|Accesspoint|`ap`
+|Software|`software`
+|Steckdose|`steckdose`
+|Thermostat|`thermostat`
+
+|===
+
+Folgende Stockwerke (`<stockwerk>`) gibt es:
+
+|===
+|Stockwerk        |Kurname |Kürzel
+
+|Keller           |Keller  |`kg`
+|Erdgeschoss      |EG      |`eg`
+|Zwischengeschoss |ZG      |`zg`
+|1. Obergeschoss  |OG1     |`og1`
+|2. Obergeschoss  |OG2     |`og2`
+
+|===
+
+Folgende Räume (`raum`) sind bis jetzt vergeben:
+
+|===
+|Stockwerk |Raum |Kürzel
+
+|Keller |Flur   |`flur_kg`
+|Keller |Links  |`links_kg`
+|Keller |Rechts |`rechts_kg`
+|EG     |Flur   |`flur_eg`
+|EG     |Bad    |`bad_eg`
+|EG     |Garderobe  |`garderobe_eg`
+|EG     |Küche  |`kueche_eg`
+|EG     |Esszimmer |`esszimmer_eg`
+|EG     |Wohnzimmer    |`wohnzimmer_eg`
+|ZG     |Flur   |`flur_zg`
+|OG1    |Flur   |`flur_og1`
+|OG1    |Bad    |`bad_og1`
+|OG1    |Büro |`buro_og1`
+|OG1    |Schlafzimmer |`schlafzimmer_og1`
+|OG1    |Sophie |`sophie_og1`
+|OG2    |Flur |`flur_og2`
+|OG2    |Lego |`lego_og2`
+|2OG    |Leonard |`leonard_og2`
+
+
+|===
+
+== Devices

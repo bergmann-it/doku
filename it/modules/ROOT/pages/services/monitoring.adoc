@@ -1,1 +1,5 @@
 = Monitoring
+
+Zum Monitoring der Infrastruktur wird ein link:https://zabbix.org[Zabbix] Monitoring Server betrieben. Das Frontent ist über https://zabbix.bergmann.click erreichbar.
+
+Um den xref:homepi.adoc[Homepi] nicht mit einem zusätzlichen Daemon und MySQL zu überfordern 

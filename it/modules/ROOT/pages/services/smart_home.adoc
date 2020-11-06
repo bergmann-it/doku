@@ -8,6 +8,7 @@ Das bedeutet sie können elektronisch ferngesteuert werden.
 Bei der Erstellung dieses Smart-Homes war es mein Bestreben, dass so wenige Daten wie möglich nach außen gelangen.
 Daher werden alle Geräte lokale vom xref:homepi.adoc[Homepi] und daran angeschlossenen Schnittstellen gesteuert.
 Zur Verwaltung und Steuerung verwenden wir die Software link:https://home-assistant.io[Home Assistant] welche unter https://hass.bergmann.click sowohl von innerhalb als auch aus dem Internet erreichbar ist. Jedes Familienmitglied hat seinen eigenen Zugang mit verschiedenen Rechten.
+Zur benennung der Entities und Devices im Home Assistant siehe xref:smart_home/naming.adoc[Smart Home Naming].
 
 == Z-Wave
 
