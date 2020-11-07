@@ -66,7 +66,7 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |OG1    |Sophie |`sophie_og1`
 |OG2    |Flur |`flur_og2`
 |OG2    |Lego |`lego_og2`
-|2OG    |Leonard |`leonard_og2`
+|OG2    |Leonard |`leonard_og2`
 
 
 |===
