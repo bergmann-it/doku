@@ -9,16 +9,16 @@ Das Netzwerk in der Frankensteiner Str. 15 ist relativ einfach um den Mittelpunk
 2. OG |                                          
 ------'                                               
                                                
-------+----------------------------------+-+------+------------------+-+------+-------------
-1. OG |                                  | | Flur | +-----------+    | | Büro | +-------+
-------'                                  | '------' | AP        |    | '------' | DECT  |
-                                         |          | 1. OG     +--. |          | Basis +-.
-                                         |          +-----------+  | |          +-------+ |
----+-------------------------------------+-------------------------+-+--------------------+-
-EG |                                           +-----------+       |                      |
----'                                           | AP        |       |                      |
-                                               | Garderobe +-----. |                      |
-                                               +-----------+     | |                      |
+------+---------------------------------+-+------+-------------------+-+------+-------------
+1. OG |                                 | | Flur | +-----------+     | | Büro | +-------+
+------'                                 | '------' | AP        |     | '------' | DECT  |
+                                        |          | 1. OG     +---. |          | Basis +-.
+                                        |          +-----------+   | |          +-------+ |
+---+------------------------------------+--------------------------+-+--------------------+-
+EG |                                               +-----------+   |                      |
+---'                                               | AP        |   |                      |
+                                                   | Garderobe +-. |                      |
+                                                   +-----------+ | |                      |
 -------+------------+-+--------------+---+-+------+--------------+-+----------------------+-
 Keller |            | | Heizungsraum |   | | Flur |              | |                      |
 -------'            | '--------------'   | '------'              | |                      |
@@ -71,12 +71,17 @@ Details zum wlan finden sich auf einer extra Seite: xref:services/wifi.adoc[Wifi
 Fast alle Hosts bekommen ihre Adressen per DHCP vergeben. Einige der Geräte bekommen über den DHCP statische Adressen zugewiesen bzw. haben diese statisch konfiguriert. Details zu den konfigurierten hosts finden sich im link:https://gw-1.bergmann.click/[Router].
 Unten die wichtigsten Hosts im Überblick:
 
+=== Standard-Netz
+
 |===
-|Host                                      |IP            |Dokumentation
-
-|link:https://gw-1.bergmann.click/[Router] |192.168.1.254 |
-|Homepi                                    |192.168.1.250 |xref:homepi.adoc[Homepi]
-|link:http://192.168.1.245/[Switch]        |192.168.1.245 |
-|link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244 |xref:services/telefon.adoc[Telefon]
-
+|Host                                      |IP                |Dokumentation
+|Reserviert                                |192.168.1.1-15    |
+|DHCP-Bereich                              |192.168.1.16-191  |
+|metallb                                   |192.168.1.192-207 |xref:services/k8s.adoc[kubernetes]
+|frei                                      |192.168.1.208-223 |
+|K8s nodes                                 |192.168.1.224-239 |xref:services/k8s.adoc[Kubernetes]
+|link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244     |xref:services/telefon.adoc[Telefon]
+|link:http://192.168.1.245/[Switch]        |192.168.1.245     |
+|Homepi                                    |192.168.1.250     |xref:homepi.adoc[Homepi]
+|link:https://gw-1.bergmann.click/[Router] |192.168.1.254     |
 |=== 
