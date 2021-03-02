@@ -43,6 +43,21 @@ vlan:
  t tagged
 ....
 
+== Netzwerkdosen
+
+|===
+|Standort                      |Links |Rechts
+
+|Sicherungskasten Mieterkeller |2     |1
+|Hausanschlusspunkt            |4     |3
+|Garderobe EG                  |6     |5
+|Flur OG1                      |8     |7
+|Schlafzimmer 2. OG            |10    |9
+|Wohnzimmer                    |12    |11
+|Büro 1. OG 1                  |13    |14
+|Büro 1. OG 2                  |--    |15
+|===
+
 == Uplink
 
 Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerkonto/login/zugangsdaten[Vodafone] (ehemals Unitymedia).
@@ -60,7 +75,6 @@ Es gibt die folgenden Subnetze:
 |41      |Kabelgebundenes Gästenetz           |192.168.4.0/24
 |N/A     |OpenVPN                             |192.168.5.0/24
 |80      |xref:services/k8s.adoc[k8s Cluster] |192.168.8.0/24
-
 |===
 
 == WLAN
@@ -76,6 +90,7 @@ Unten die wichtigsten Hosts im Überblick:
 
 |===
 |Host                                      |IP                |Dokumentation
+
 |Reserviert                                |192.168.1.1-15    |
 |DHCP-Bereich                              |192.168.1.16-191  |
 |link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244     |xref:services/telefon.adoc[Telefon]
@@ -88,6 +103,7 @@ Unten die wichtigsten Hosts im Überblick:
 
 |===
 |Host                                      |IP                |Präfix |Dokumentation
+
 |Reserviert                                |192.168.1.1-15    |/28    |
 |link:https://gw-1.bergmann.click/[Router] |192.168.1.1       |/32    |
 |Master Nodes                              |192.168.1.8-15    |/29    |
