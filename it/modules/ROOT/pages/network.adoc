@@ -52,13 +52,14 @@ Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerko
 Es gibt die folgenden Subnetze:
 
 |===
-|VLAN-ID |Beschreibung  |Subnetz
+|VLAN-ID |Beschreibung                        |Subnetz
 
-|0       |Standard-Netz             |192.168.1.0/24
-|30      |IoT-Netz                  |192.168.2.0/24
-|40      |Gäste-Netz                |192.168.3.0/24
-|41      |Kabelgebundenes Gästenetz |192.168.4.0/24
-|N/A     |OpenVPN                   |192.168.5.0/24
+|0       |Standard-Netz                       |192.168.1.0/24
+|30      |IoT-Netz                            |192.168.2.0/24
+|40      |Gäste-Netz                          |192.168.3.0/24
+|41      |Kabelgebundenes Gästenetz           |192.168.4.0/24
+|N/A     |OpenVPN                             |192.168.5.0/24
+|80      |xref:services/k8s.adoc[k8s Cluster] |192.168.8.0/24
 
 |===
 
@@ -77,11 +78,21 @@ Unten die wichtigsten Hosts im Überblick:
 |Host                                      |IP                |Dokumentation
 |Reserviert                                |192.168.1.1-15    |
 |DHCP-Bereich                              |192.168.1.16-191  |
-|metallb                                   |192.168.1.192-207 |xref:services/k8s.adoc[kubernetes]
-|frei                                      |192.168.1.208-223 |
-|K8s nodes                                 |192.168.1.224-239 |xref:services/k8s.adoc[Kubernetes]
 |link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244     |xref:services/telefon.adoc[Telefon]
 |link:http://192.168.1.245/[Switch]        |192.168.1.245     |
 |Homepi                                    |192.168.1.250     |xref:homepi.adoc[Homepi]
 |link:https://gw-1.bergmann.click/[Router] |192.168.1.254     |
 |=== 
+
+=== Kubernetes Cluster
+
+|===
+|Host                                      |IP                |Präfix |Dokumentation
+|Reserviert                                |192.168.1.1-15    |/28    |
+|link:https://gw-1.bergmann.click/[Router] |192.168.1.1       |/32    |
+|Master Nodes                              |192.168.1.8-15    |/29    |
+|DHCP Bereich für worker nodes             |192.168.1.16-31   |/28    |
+|MetalLB                                   |192.168.1.32-63   |/27    |
+|Reserviert                                |192.168.1.192-254 |/26    |
+|=== 
+
