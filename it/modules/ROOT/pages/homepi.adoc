@@ -8,6 +8,35 @@ Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/pr
 Zur besseren Ausfallsicherheit ist der Homepi mit einer externen SSD als Festplatte ausgestattet. Das ist schneller und zuverlässiger als eine SD-Karte.
 Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu auf der Seite xref:services/smart_home/index.adoc[Smart Home].
 
+== USB Geräte
+
+Der Raspberry bekommt vom Netzteil 2400 mA. Selbst braucht er maximal 1500 mA. Bleiben noch ca. 900 mA für Geräte.
+
+|===
+|Gerät |Modell |Stromverbrauch
+
+|SATA-Adapter
+|link:https://www.startech.com/de-de/hdd/usb3s2sat3cb[Startech USB3S2SAT3CB]
+|70 mA
+
+|SSD
+|link:https://www.kingston.com/germany/de/ssd/a400-solid-state-drive[Kingston SA400S37/120G]
+|310 mA
+
+|USB-Hub
+|link:https://www.digitus.info/de/produkte/computer-und-office-zubehoer/computer-zubehoer/usb-komponenten-und-zubehoer/hubs-und-kartenleser/da-70217/[Digitus DA-70217]
+|?? mA
+
+|Z-Wave Stick
+|link:https://help.aeotec.com/support/solutions/articles/6000167094-z-stick-gen5-technical-specifications[Aeotec Z-Stick Gen5]
+|98mA
+
+|Zigbee Stick
+|link:https://phoscon.de/de/conbee2[dresden elektronik ConBee II]
+|?? mA
+
+|===
+
 == Netzwerk
 
 Der Homepi ist mit einem Kabel mit dem Router verbunden. Er ist sowohl mit der IP 192.168.1.250 im "Hauptnetz" als auch mit der IP 192.168.2.250 im IoT Netzwerk.
