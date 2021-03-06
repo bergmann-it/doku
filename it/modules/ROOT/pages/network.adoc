@@ -102,8 +102,8 @@ Unten die wichtigsten Hosts im Überblick:
 
 |Reserviert                                |192.168.8.1-15    |/28    |
 |link:https://gw-1.bergmann.click/[Router] |192.168.8.1       |/32    |
-|Master Nodes                              |192.168.8.8-15    |/29    |
-|DHCP Bereich für worker nodes             |192.168.8.16-31   |/28    |
+|Master Nodes                              |192.168.8.16-18   |/28    |
+|DHCP Bereich für worker nodes             |192.168.8.19-31   |/28    |
 |MetalLB                                   |192.168.8.32-63   |/27    |
 |Reserviert                                |192.168.8.192-254 |/26    |
 |=== 
