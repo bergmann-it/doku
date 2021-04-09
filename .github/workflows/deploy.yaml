@@ -1,5 +1,8 @@
 name: Deploy to doku.bergmann.click
-on: [push]
+on:
+  push:
+  repository_dispatch:
+    types: [update_doku]
 jobs:
   deploy:
     name: Deploy
