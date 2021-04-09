@@ -1,5 +1,0 @@
-= Übersicht
-
-Herzlich willkommen auf der Dokumentationsseite der Infrastruktur der Familie Kullmann in Aschaffenburg.
-
-CAUTION: Die Informationen hier sind größtenteils von mir (Clemens) aus der bestehenden Infrastruktur nachdokumentiert. Entsprechend können Dinge fehlen oder falsch verstanden/dargestellt sein. 

@@ -9,7 +9,6 @@ content:
     start_paths: 
       - it
       - allgemeines
-      - aschaffenburg
   - url: https://github.com/cbergmann/homepi-cluster
     branches: main
     start_paths: 
