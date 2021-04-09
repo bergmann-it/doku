@@ -13,7 +13,7 @@ content:
   - url: https://github.com/cbergmann/homepi-cluster
     branches: main
     start_paths: 
-      - doku
+      - docs
 runtime: 
   fetch: true
 ui:
