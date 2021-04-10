@@ -4,15 +4,17 @@ site:
   start_page: allgemeines::index.adoc
 content:
   sources:
-  - url: https://github.com/cbergmann/doku
+  - url: https://github.com/bergmann-it/doku
     branches: main
     start_paths: 
       - it
       - allgemeines
-  - url: https://github.com/cbergmann/homepi-cluster
+  - url: https://github.com/bergmann-it/homepi-cluster
     branches: main
     start_paths: 
       - docs
+  - url: https://github.com/bergmann-it/doku-aschaffenburg
+    branches: main
 runtime: 
   fetch: true
 ui:
