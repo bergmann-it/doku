@@ -33,7 +33,7 @@ Der Raspberry bekommt vom Netzteil 2400 mA. Selbst braucht er maximal 1500 mA. B
 
 |Zigbee Stick
 |link:https://phoscon.de/de/conbee2[dresden elektronik ConBee II]
-|?? mA
+|60 mA
 
 |===
 
