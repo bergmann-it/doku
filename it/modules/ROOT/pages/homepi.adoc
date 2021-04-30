@@ -4,7 +4,7 @@ Der Homepi ist der zentrale Server im lokalen Netzwerk. Er befindet sich im Kell
 
 == Hardware
 
-Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/[Raspberry Pi 3 B Plus].
+Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/products/raspberry-pi-4-model-b/[Raspberry Pi 4 B] mit 8 GB RAM.
 Zur besseren Ausfallsicherheit ist der Homepi mit einer externen SSD als Festplatte ausgestattet. Das ist schneller und zuverlässiger als eine SD-Karte.
 Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu auf der Seite xref:services/smart_home/index.adoc[Smart Home].
 
@@ -39,7 +39,7 @@ Der Raspberry bekommt vom Netzteil 2400 mA. Selbst braucht er maximal 1500 mA. B
 
 == Netzwerk
 
-Der Homepi ist mit einem Kabel mit dem Router verbunden. Er ist sowohl mit der IP 192.168.1.250 im "Hauptnetz" als auch mit der IP 192.168.2.250 im IoT Netzwerk.
+Der Homepi ist mit einem Kabel mit dem Router verbunden.
 Per SSH ist der Host sowohl von innerhalb des Netztes als auch aus dem Internet unter dem Host +homepi.bergmann.click+ zu erreichen. Die Zugangsdaten befinden sich im 1password. 
 
 == Software
