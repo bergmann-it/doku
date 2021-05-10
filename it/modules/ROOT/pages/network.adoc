@@ -63,14 +63,16 @@ Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerko
 Es gibt die folgenden Subnetze:
 
 |===
-|VLAN-ID |Beschreibung                        |Subnetz
+|VLAN-ID |Beschreibung                              |Subnetz
 
-|0       |Standard-Netz                       |192.168.1.0/24
-|30      |IoT-Netz                            |192.168.2.0/24
-|40      |Gäste-Netz                          |192.168.3.0/24
-|41      |Kabelgebundenes Gästenetz           |192.168.4.0/24
-|N/A     |OpenVPN                             |192.168.5.0/24
-|80      |xref:services/k8s.adoc[k8s Cluster] |192.168.8.0/24
+|0       |Standard-Netz                             |192.168.1.0/24
+|30      |IoT-Netz                                  |192.168.2.0/24
+|40      |Gäste-Netz                                |192.168.3.0/24
+|41      |Kabelgebundenes Gästenetz                 |192.168.4.0/24
+|N/A     |OpenVPN                                   |192.168.5.0/24
+|50      |xref:services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24
+|N/A     |Modem-Netzwerk                            |192.168.7.0/24
+|80      |xref:services/k8s.adoc[k8s Cluster]       |192.168.8.0/24
 |===
 
 == WLAN
@@ -93,6 +95,24 @@ Unten die wichtigsten Hosts im Überblick:
 |link:http://192.168.1.245/[Switch]        |192.168.1.245     |
 |Homepi                                    |192.168.1.250     |xref:homepi.adoc[Homepi]
 |link:https://gw-1.bergmann.click/[Router] |192.168.1.254     |
+|=== 
+
+=== WAN-Fallback
+
+|===
+|Host                                      |IP                |Dokumentation
+
+|xref:services/uplink/fallback.adoc[WAN-Fallback-Router]                       |192.168.6.1       |
+|Router                                    |192.168.6.2       |
+|=== 
+
+=== Modem-Netz
+
+|===
+|Host                                      |IP                |Dokumentation
+
+|Modem                                     |192.168.7.1       |
+|Router                                    |192.168.7.2       |
 |=== 
 
 === Kubernetes Cluster

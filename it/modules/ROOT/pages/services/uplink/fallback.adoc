@@ -1,0 +1,21 @@
+= WAN-Fallback
+
+== Einleitung
+
+Im Fall eines Ausfalls der Internet-Leitung ist es möglich im "Notbetrieb" das gesammte Netzwerk über den Hotspot eines Smartphones zu routen. 
+
+== Inbetriebname
+
+
+IMPORTANT: Es ist wichtig, dass sich das Smartphone welche den Hotspot zur Verfügung stellt nicht gleichzeitig mit dem WLAN verbindet. Dann kommt es zu Routing-Problemen.
+
+. Wlan am smartphone ausschalten.
+. Hotspot entsprechend der Zugangsdaten im Eintrag "wan-fallback" im 1password konfigurieren und aktivieren.
+. Den Router mit Beschriftung "WAN fallback" aus dem Schubladenschrank im Arbeitszimmer nehmen.
+. Router mit dem Gelben Netzwerkkabel auf dem Schreibtisch verbinden.
+. Router mit dem USB-Anschluss auf dem Schreibtisch verbinden.
+. Sicherstellen, dass das Smartphone in der nähe des Routers ist.
+. Der Fallback-Router verbindet sich automatisch mit dem wlan. Dies ist an der grün leuchtenden LED zu erkennen.
+. Verbinden mit einem Endgerät mit dem wlan.
+. Im link:https://192.168.1.1/[Haupt-Router] kann jetzt das Interface "wan_fallback" aktivieren.
+. Evtl. muss dort auch noch das fehlerhafte Interface deaktiviert werden.
