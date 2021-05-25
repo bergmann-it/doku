@@ -1,0 +1,19 @@
+= IPv6
+
+== ULA
+
+Das ULA Netz fd6b:b175:9ccf::/48 wurde anhand der eth0 MAC-Adresse des Routers auf https://cd34.com/rfc4193/ generiert.
+
+== Prefix delegation
+
+Wir bekommen vom Provier ein dynamisches /56 delegiert. Jedes der Subnetzte bekommt entsprechend der Subnet-ID ein /64 zugewiesen.
+
+Das höchstwertige /58 wird für NAT-PT reserviert.
+
+== NAT-PT
+
+Da nicht alle Dienste mit dynamisch wechselnden Subnetzen zurecht kommen hat jedes Netz zusätzlich noch ein ULA Netz.
+
+Wir reservieren den Bereich fd6b:b175:9ccf:0000::/56 entsprechend der deligierten Präfixgröße für NAT-PT.
+
+Aktell nutzen wir aber nur das letzte /58 also fd6b:b175:9ccf:00c0/58 für NAT-PT. Dieses wird auf das oben genannten deligierte letzte /58 gemapped.

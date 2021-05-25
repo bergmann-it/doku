@@ -69,17 +69,19 @@ Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerko
 Es gibt die folgenden Subnetze:
 
 |===
-|VLAN-ID |Beschreibung                              |Subnetz
+|Netz-ID |VLAN-ID |Beschreibung                              |IPv4-Subnetz   |IPv6-ULA
 
-|0       |Standard-Netz                             |192.168.1.0/24
-|30      |IoT-Netz                                  |192.168.2.0/24
-|40      |Gäste-Netz                                |192.168.3.0/24
-|41      |Kabelgebundenes Gästenetz                 |192.168.4.0/24
-|N/A     |OpenVPN                                   |192.168.5.0/24
-|50      |xref:services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24
-|N/A     |Modem-Netzwerk                            |192.168.7.0/24
-|80      |xref:services/k8s.adoc[k8s Cluster]       |192.168.8.0/24
+|1       |0       |Standard-Netz                             |192.168.1.0/24 |fd6b:b175:9ccf:c1::/64
+|2       |30      |IoT-Netz                                  |192.168.2.0/24 |fd6b:b175:9ccf:c2::/64
+|3       |040     |Gäste-Netz                                |192.168.3.0/24 |fd6b:b175:9ccf:c3::/64
+|4       |041     |Kabelgebundenes Gästenetz                 |192.168.4.0/24 |fd6b:b175:9ccf:c4::/64
+|5       |0N/A    |OpenVPN                                   |192.168.5.0/24 |fd6b:b175:9ccf:c5::/64
+|6       |050     |xref:services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24 |
+|7       |0N/A    |Modem-Netzwerk                            |192.168.7.0/24 |fd6b:b175:9ccf:c7::/64
+|8       |080     |xref:services/k8s.adoc[k8s Cluster]       |192.168.8.0/24 |fd6b:b175:9ccf:c8::/64
 |===
+
+Details zum IPv6 Setup finden sich auf der Seite xref:ipv6.adoc[IPv6].
 
 == WLAN
 
