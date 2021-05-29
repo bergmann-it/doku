@@ -17,3 +17,5 @@ Da nicht alle Dienste mit dynamisch wechselnden Subnetzen zurecht kommen hat jed
 Wir reservieren den Bereich fd6b:b175:9ccf:0000::/56 entsprechend der deligierten Präfixgröße für NAT-PT.
 
 Aktell nutzen wir aber nur das letzte /58 also fd6b:b175:9ccf:00c0/58 für NAT-PT. Dieses wird auf das oben genannten deligierte letzte /58 gemapped.
+
+Um das beim Update des deligierten Netzes zu aktualisieren existiert ein link:https://github.com/bergmann-it/edgeos-scripts[Script].

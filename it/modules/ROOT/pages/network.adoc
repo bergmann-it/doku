@@ -87,6 +87,10 @@ Details zum IPv6 Setup finden sich auf der Seite xref:ipv6.adoc[IPv6].
 
 Details zum wlan finden sich auf einer extra Seite: xref:services/wifi.adoc[Wifi]
 
+== DNS
+
+Die Domain home.bergmann.click ist bei https://dynv6.com gehostet. Die IPv4 Adresse wird vom Router per ddclient aktualisiert. Um auch die IPv6 Adresse und das deligierte Präfix zu aktualisieren existiert ein zusätzliches link:https://github.com/bergmann-it/edgeos-scripts[Script].
+
 == Hosts
 
 Fast alle Hosts bekommen ihre Adressen per DHCP vergeben. Einige der Geräte bekommen über den DHCP statische Adressen zugewiesen bzw. haben diese statisch konfiguriert. Details zu den konfigurierten hosts finden sich im link:https://gw-1.bergmann.click/[Router].
