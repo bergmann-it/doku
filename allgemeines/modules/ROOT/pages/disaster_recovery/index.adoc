@@ -1,6 +1,7 @@
 = Clemens Bergmann Emergency Recovery Plan
 
 Sollte es mir irgendwann so schlecht gehen, dass meine Familie auf unsere Infrastruktur zugreifen müsste stellt dieser Plan sicher, dass das möglich ist. 
+Außerdem dient der Plan mir zur wiederherstellung sollten alle meine Geräte (z.B. durch Brand) zerstört sein.
 Zum allgemeinen Verständniss der Infrastruktur dient diese gesammte Dokumentation. Der Recovery Plan ist in drei Stufen aufgeteilt. 
 
 == Stufe 1 - Bootstrap

@@ -1,2 +1,3 @@
 * xref:index.adoc[Übersicht]
+* xref:katastrophen/index.adoc[Katastrophenfälle]
 * xref:disaster_recovery/index.adoc[Disaster recovery]

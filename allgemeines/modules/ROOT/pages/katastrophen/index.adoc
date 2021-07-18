@@ -1,0 +1,47 @@
+= Katastrophenplan
+
+Diese Seite beschreibt wie wir auf verschiedene Katastrophenszenarien vorbereitet sind und wie wir in diesem Fall reagieren würden.
+
+== Hochwasser
+
+Der Keller hat keine Abflüsse oder ähnliches.
+Daher sollte Wasser nur über die Haustürschwelle oder Kellerfenster eindringen.
+Beide sind ca. 10 cm über Umgebungsniveau.
+
+Elektroinstallation etc. sind im Keller mindestens 100 cm über dem Boden installiert.
+Unterhalb dieser Linie sind auch keine wichtigen Unterlagen etc. gelagert. 
+Daher ist bis dahin das Haus relativ unbeschadet. 
+Sollte das Wasser über diesen Punkt hinaus steigen wird Strom und Internet ausfallen.
+Spätestens dann muss das Haus evakuiert werden.
+
+== Stromausfall
+
+Die wichtigste Kerninfrastruktur des Hauses wird über POE von einem zentralen Punkt im Keller aus versorgt.
+Das beinhaltet die folgenden Geräte.
+
+|===
+|Gerät        |Modell           |Stromverbrauch
+|Modem        |Vigor 165        |7.5 W
+|Router       |EdgeRouter X SFP |5 W
+|Switch       |TL-SG108E        |3.55 W
+|AccessPoints |UAP-AC-Lite      |2*6.5 W
+|DECT-Basis   |W52P             |3 W
+2+|xref:it::homepi.adoc[Homepi] |12 W
+2+|Summe                        |ca. 45 W 
+|===
+
+Einzig das Modem ist nicht an dieser zentralen Stelle angeschlossen.
+Im Regelbetrieb ist dieses zur Erhöhung der Verbinungsstabilität so nah wie möglich an der 1. TAE angeschlossen.
+Im Falle eine Stromausfalls könnte dieses aber mit wenigen Handgriffen am zentralen Punkt betrieben werden.
+
+Am zentralen Punkt ist eine USV angebracht welche diese Hardware für ca. 1 Stunde betreiben kann.
+Das ermöglicht das planen und die Kommunikation der Abreise und sauberes Herunterfahren.
+
+== DSL-Ausfall
+
+Im Falle eines DSL-Ausfalls kann das Netz über den xref:it::services/uplink/fallback.adoc[WAN-Fallback-Router] weiter betrieben werden.
+
+== Evakuierung
+
+Im Falle einer Evakuierung bleiben im schlimmsten Fall nur wenige Minuten. Daher existiert eine xref:katastrophen/checkliste_evakuierung.adoc[Checkliste Evakuierung] welche in der Priorisierung abgearbeitet werden kann.
+

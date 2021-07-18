@@ -1,0 +1,64 @@
+= Checkliste Evakuierung
+
+Solte das Haus aus Sicherheitsgründen zügig verlassen werden müssen können evtl. nur wenige Minuten Zeit bleiben.
+Daher ist die folgende Liste nach Wichtigkeit sortiert.
+Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste schon getan.
+
+== Packliste
+
+* [ ] Dokumentenmappe
+** [ ] Personalausweise/Reisepässe
+** [ ] Impfpässe
+** [ ] Krankenkassenkarten
+** [ ] Stammbuch
+** [ ] Zeugnisse
+** [ ] Telefonliste
+** [ ] Notfallkontaktkarten
+* [ ] Notfallrucksack
+** [ ] Ersatzhandy
+** [ ] 1. Hilfe Set
+** [ ] Kurbelradio
+** [ ] Edding
+** [ ] Taschenlampe
+** [ ] Bargeld (4x15€)
+** [ ] Seife
+** [ ] Taschenmesser
+** [ ] Masken
+** [ ] Kartenspiel
+* [ ] Zusätzlich einpacken
+** [ ] Wasserflasche
+** [ ] Powerbank
+** [ ] Medikamente
+* [ ] pro Person
+** [ ] Feste Schuhe
+** [ ] Regenjacke
+** [ ] lange Hose
+** [ ] Hessenticket
+** [ ] Rucksack
+*** [ ] Handy (ausgeschaltet)
+*** [ ] Wasserflasche
+*** [ ] Handynetzteil
+*** [ ] Pullover
+*** [ ] Lange Hose
+*** [ ] Unterwäsche
+*** [ ] Strümpfe
+*** [ ] Kopfbedeckung
+
+== Abreise
+
+* [ ] Sinai aus dem Haus
+* [ ] Fenster geschlossen
+* [ ] Rolländen geschlossen
+* [ ] Haustür abgeschlossen
+* [ ] Fahrräder abgeschlossen
+
+//-
+
+* [ ] Wichtige Telefonnummern mit Kugelschreiber/Edding auf die Oberarme.
+* [ ] Briefing
+** Wir bleiben nach möglichkeit zusammen.
+** So lange wir zusammen sind bleiben Handys aus um Strom zu sparen.
+** Sollten wir getrennt Handys anschalten und laut stellen.
+** Sollten Handys nicht funktionieren Notfallkommunikation über Großkrotzenburg oder Aschaffenburg
+* [ ] Handyzeit der Kinder gesperrt (Stromverbrauch)
+* [ ] Anrufbeantwortertext eingesprochen
