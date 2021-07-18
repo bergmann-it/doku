@@ -29,20 +29,20 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 ** [ ] Wasserflasche
 ** [ ] Powerbank
 ** [ ] Medikamente
-* [ ] pro Person
-** [ ] Feste Schuhe
-** [ ] Regenjacke
-** [ ] lange Hose
-** [ ] Hessenticket
-** [ ] Rucksack
-*** [ ] Handy (ausgeschaltet)
-*** [ ] Wasserflasche
-*** [ ] Handynetzteil
-*** [ ] Pullover
-*** [ ] Lange Hose
-*** [ ] Unterwäsche
-*** [ ] Strümpfe
-*** [ ] Kopfbedeckung
+* [ ] [L] [S] [T] [C] pro Person
+** [ ] [ ] [ ] [ ] [ ] Feste Schuhe
+** [ ] [ ] [ ] [ ] [ ] Regenjacke
+** [ ] [ ] [ ] [ ] [ ] lange Hose
+** [ ] [ ] [ ] [ ] [ ] Hessenticket
+** [ ] [ ] [ ] [ ] [ ] Rucksack
+*** [ ] [ ] [ ] [ ] [ ] Handy (ausgeschaltet)
+*** [ ] [ ] [ ] [ ] [ ] Wasserflasche
+*** [ ] [ ] [ ] [ ] [ ] Handynetzteil
+*** [ ] [ ] [ ] [ ] [ ] Pullover
+*** [ ] [ ] [ ] [ ] [ ] Lange Hose
+*** [ ] [ ] [ ] [ ] [ ] Unterwäsche
+*** [ ] [ ] [ ] [ ] [ ] Strümpfe
+*** [ ] [ ] [ ] [ ] [ ] Kopfbedeckung
 
 == Abreise
 
