@@ -46,10 +46,11 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 
 == Abreise
 
-* [ ] Sinai aus dem Haus
 * [ ] Fenster geschlossen
+* [ ] Sinai aus dem Haus
 * [ ] Rolländen geschlossen
 * [ ] Haustür abgeschlossen
+* [ ] Biomüll rausgebracht
 * [ ] Fahrräder abgeschlossen
 
 //-
@@ -58,7 +59,7 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 * [ ] Briefing
 ** Wir bleiben nach möglichkeit zusammen.
 ** So lange wir zusammen sind bleiben Handys aus um Strom zu sparen.
-** Sollten wir getrennt Handys anschalten und laut stellen.
+** Sollten wir getrennt werden, Handys anschalten und laut stellen.
 ** Sollten Handys nicht funktionieren Notfallkommunikation über Großkrotzenburg oder Aschaffenburg
 * [ ] Handyzeit der Kinder gesperrt (Stromverbrauch)
 * [ ] Anrufbeantwortertext eingesprochen
