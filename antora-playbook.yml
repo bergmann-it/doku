@@ -15,6 +15,8 @@ content:
       - docs
   - url: https://github.com/bergmann-it/doku-aschaffenburg
     branches: main
+  - url: https://github.com/bergmann-it/doku-gkb
+    branches: main
 runtime: 
   fetch: true
 ui:
