@@ -3,14 +3,12 @@
 Zum gemeinsamen Spielen von Minecraft haben wir einen entsprechenden Server.
 Aus Leistungsgründen läuft dieser nicht auf dem xref:homepi.adoc[Homepi] sondern auf Christianes Desktop Rechner.
 
-Alle Dateien des Servers sind unter +c:\minecraft_server+ zu finden.
+Alle Dateien des Servers sind unter +c:\minecraft_mcss+ zu finden.
 Der Server ist sowohl aus dem internet Netz als auch aus dem Internet unter +minecraft.bergmann.click+ erreichbar.
 Es sind verschiedene Welten verfügbar.
-Für jede Welt gibt es eine bat Datei welche den Server für die Welt vorbereitet (Konfigurationsdatei kopiert), die Stromsparfunktion des Computers ausschaltet und den Server startet. 
-
-== rcon
-
-Der Server horcht auf Port +25575+ auf das minecraft rcon Protokoll. Das Passwort findet sich unter "Minecraft Server Rcon" im 1password.
+Die verschiedenen Server werden mit der Software link:https://www.mcserversoft.com[MC Server Soft] verwaltet.
+Wenn die Software gestartet wird startet automatisch der Lobby Server und der Proxy. Die konkreten Welten können dann in MCSS gestartet werden.
+Verbindet man sich mit dem Server kommt man immer in die Lobby und kann dann über Portal in die konkrete Welt wechseln.
 
 == Remote Starten
 
@@ -21,6 +19,6 @@ Dazu geht man wie folgt vor:
 . Den Rechner per etherwake aufwecken: +etherwake 70:85:c2:bd:8c:0e+
 . Per link:https://teamviewer.com[Teamviewer] verbinden. Zugansdaten sind unter "Teamviewer neuesding" im 1password.
 . Login mit einem User.
-. Starten des entsprechenden Servers mittels z.b. +c:\minecraft_server\dorfleben.bat+.
+. Starten von MCSS über den Startmenü-Eintrag.
 
 NOTE: Um das Spiel nicht zu unterbrechen wird die Stromsparfunktion des Rechners beim Start des Servers abgeschaltet. Daher ist es wichtig, nach dem Spiel den Server zu stoppen und den Rechner herunter zu fahren um Strom zu sparen.

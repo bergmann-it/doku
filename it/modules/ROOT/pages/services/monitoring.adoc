@@ -2,4 +2,8 @@
 
 Zum Monitoring der Infrastruktur wird ein link:https://zabbix.org[Zabbix] Monitoring Server betrieben. Das Frontent ist über https://zabbix.bergmann.click erreichbar.
 
-Um den xref:homepi.adoc[Homepi] nicht mit einem zusätzlichen Daemon und MySQL zu überfordern 
+Um den xref:homepi.adoc[Homepi] nicht mit einem zusätzlichen Daemon und MySQL zu überfordern läuft der Server im Uberspace.
+Zur Anbindung der Clients im Netzwerk läuft auf dem Homepi ein Zabbix Proxy.
+
+Leider kann Zabbix standardmäßig nur in einem Port-Bereich arbeiten welcher von Uberspace nicht unterstüzt wird.
+Daher muss sowohl der Proxy als auch der Server auf dem Uberspace per hand compiled werden.

@@ -56,6 +56,14 @@ WLAN Steckdosen sind häufig günstiger als Z-wave oder Zigbee Steckdosen.
 Daher haben wir zwei link:https://www.amazon.de/dp/B089LRRZNN[dieser Steckdosen].
 Auf den Steckdosen wurde link:https://esphome.io[ESPHome] entsprechend link:https://frenck.dev/calibrating-an-esphome-flashed-power-plug/[dieser Anleitung] installiert.
 
+== Homematic IP
+
+Für die Rauchmelder befindet sich am Homepi ein link:https://de.elv.com/elv-homematic-komplettbausatz-funkmodul-fuer-raspberry-pi-hm-mod-rpi-pcb-fuer-smart-home-hausautomation-142141[Homematic IP Modul].
+
+=== Rauchmelder
+
+Im Haus Verteilt befinden sich 10 link:https://www.amazon.de/dp/B01KPM3P68[Homematic IP Rauchmelder]. Diese sind untereinander unabhängig von der Zentrale vernetzt.
+
 == Sprachsteuerung
 
 Um die Smart-Home Geräte auch per Sprache steuern zu können ist eine xref:services/alexa.adoc[Alexa] Anbindung entsprechend link:https://www.home-assistant.io/integrations/alexa.smart_home/[dieser Anleitung] konfiguriert. 
