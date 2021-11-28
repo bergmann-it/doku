@@ -4,6 +4,8 @@
 
 Das ULA Netz fd6b:b175:9ccf::/48 wurde anhand der eth0 MAC-Adresse des Routers auf https://cd34.com/rfc4193/ generiert.
 
+Für das xref:k8s::index.adoc[k8s Cluster] wurden zu verschiedenen Zeitpunkten anhand der eth0 MAC des ersten nodes die ULAs fd53:f3c0:fefd::/48 für das cluster-cidr und fde2:37f0:b85f::/48 für das service-cidr generiert.
+
 == Prefix delegation
 
 Wir bekommen vom Provier ein dynamisches /56 delegiert. Jedes der Subnetzte bekommt entsprechend der Subnet-ID ein /64 zugewiesen.

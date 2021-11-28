@@ -78,7 +78,7 @@ Es gibt die folgenden Subnetze:
 |5       |0N/A    |OpenVPN                                   |192.168.5.0/24 |fd6b:b175:9ccf:c5::/64
 |6       |050     |xref:services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24 |
 |7       |0N/A    |Modem-Netzwerk                            |192.168.7.0/24 |fd6b:b175:9ccf:c7::/64
-|8       |080     |xref:services/k8s.adoc[k8s Cluster]       |192.168.8.0/24 |fd6b:b175:9ccf:c8::/64
+|8       |080     |xref:k8s::index.adoc[k8s Cluster]       |192.168.8.0/24 |fd6b:b175:9ccf:c8::/64
 |===
 
 Details zum IPv6 Setup finden sich auf der Seite xref:ipv6.adoc[IPv6].
