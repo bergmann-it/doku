@@ -18,7 +18,6 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 ** [ ] Masken
 ** [ ] Kartenspiel
 * [ ] Zusätzlich einpacken
-** [ ] Wasserflasche
 ** [ ] Powerbank
 ** [ ] Medikamente
 * Persönliches Gepäck (xref:katastrophen/packliste.adoc[Packliste])
