@@ -1,7 +1,9 @@
 = Inhaltsverzeichnis Dokumentenmappe
 
+[cols="1,5"]  
 |===
 |Fach | Inhalt
+
 |00 | Inhaltsverzeichnis, Packlisten, Telefonliste
 |01 | Bargeld (4x15 €), Notfallkontaktkarten
 |02 | Reisepässe, Impfpässe, Krankenkassenkarten
