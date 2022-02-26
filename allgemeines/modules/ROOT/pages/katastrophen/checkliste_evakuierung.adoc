@@ -6,21 +6,13 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 
 == Packliste
 
-* [ ] Dokumentenmappe
-** [ ] Personalausweise/Reisepässe
-** [ ] Impfpässe
-** [ ] Krankenkassenkarten
-** [ ] Stammbuch
-** [ ] Zeugnisse
-** [ ] Telefonliste
-** [ ] Notfallkontaktkarten
+* [ ] Dokumentenmappe (xref:katastrophen/inhalt_dokumentenmappe.adoc[Inhalt])
 * [ ] Notfallrucksack
 ** [ ] Ersatzhandy
 ** [ ] 1. Hilfe Set
 ** [ ] Kurbelradio
 ** [ ] Edding
 ** [ ] Taschenlampe
-** [ ] Bargeld (4x15€)
 ** [ ] Seife
 ** [ ] Taschenmesser
 ** [ ] Masken
@@ -29,20 +21,11 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 ** [ ] Wasserflasche
 ** [ ] Powerbank
 ** [ ] Medikamente
-* [ ] [L] [S] [T] [C] pro Person
-** [ ] [ ] [ ] [ ] [ ] Feste Schuhe
-** [ ] [ ] [ ] [ ] [ ] Regenjacke
-** [ ] [ ] [ ] [ ] [ ] lange Hose
-** [ ] [ ] [ ] [ ] [ ] Hessenticket
-** [ ] [ ] [ ] [ ] [ ] Rucksack
-*** [ ] [ ] [ ] [ ] [ ] Handy (ausgeschaltet)
-*** [ ] [ ] [ ] [ ] [ ] Wasserflasche
-*** [ ] [ ] [ ] [ ] [ ] Handynetzteil
-*** [ ] [ ] [ ] [ ] [ ] Pullover
-*** [ ] [ ] [ ] [ ] [ ] Lange Hose
-*** [ ] [ ] [ ] [ ] [ ] Unterwäsche
-*** [ ] [ ] [ ] [ ] [ ] Strümpfe
-*** [ ] [ ] [ ] [ ] [ ] Kopfbedeckung
+* Persönliches Gepäck (xref:katastrophen/packliste.adoc[Packliste])
+** [ ] L.
+** [ ] S.
+** [ ] T.
+** [ ] C.
 
 == Abreise
 
