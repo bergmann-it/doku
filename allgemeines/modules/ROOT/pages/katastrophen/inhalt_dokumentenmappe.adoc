@@ -1,6 +1,6 @@
 = Inhaltsverzeichnis Dokumentenmappe
 
-[cols="1,5"]  
+[cols="1,10"]  
 |===
 |Fach | Inhalt
 
