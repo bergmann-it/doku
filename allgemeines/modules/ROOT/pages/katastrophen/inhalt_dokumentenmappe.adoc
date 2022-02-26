@@ -1,0 +1,18 @@
+= Inhaltsverzeichnis Dokumentenmappe
+
+|===
+|Fach | Inhalt
+|00 | Inhaltsverzeichnis, Packlisten, Telefonliste
+|01 | Bargeld (4x15 €), Notfallkontaktkarten
+|02 | Reisepässe, Impfpässe, Krankenkassenkarten
+|03 | Bankkarten, Tierausweis
+|04 | Testamente, Patientenverfügungen, xref:allgemeines::disaster_recovery/index.adoc[Emergency Recovery Kit]
+|05 | Versicherungsscheine
+|06 | Bausparurkunden
+|07 | Aktuelle Wertmittelungen zu 05 u. 06
+|08 | Steuerunterlagen (Bescheid und Identifikationsnummern)
+|09 | Zeugnisse (Abi T., Abi C., Bachelor C., Master C.)
+|10 | Schätzungsurkunden 
+|11 | 
+|12 | Stammbuch
+|===
