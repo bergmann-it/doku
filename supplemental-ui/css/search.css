@@ -113,3 +113,8 @@
   background-color: rgba(69, 142, 225, 0.05);
 }
 
+@media print {
+  #search-input {
+    display: none; 
+  }
+}
