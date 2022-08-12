@@ -64,6 +64,8 @@ Keller |            | | Heizungsraum |  | | Flur |            | |   | |         
 
 Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerkonto/login/zugangsdaten[Vodafone] (ehemals Unitymedia).
 
+Es gibt verschiedene Wege von außen auf die Infrastruktur zuzugreifen. Details dazu auf der Seite xref:services/uplink/remote_access.adoc[Remote access].
+
 == Subnezte
 
 Es gibt die folgenden Subnetze:

@@ -10,7 +10,7 @@ Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart 
 
 == USB Geräte
 
-Der Raspberry bekommt vom Netzteil 2400 mA. Selbst braucht er maximal 1500 mA. Bleiben noch ca. 900 mA für Geräte.
+Der Raspberry bekommt vom Netzteil 2500 mA. Selbst braucht er maximal 1500 mA. Bleiben noch ca. 1000 mA für Geräte.
 
 |===
 |Gerät |Modell |Stromverbrauch
@@ -40,6 +40,12 @@ Der Raspberry bekommt vom Netzteil 2400 mA. Selbst braucht er maximal 1500 mA. B
 |50 mA
 
 |===
+
+== Notfall Reboot
+
+Sollte der Homepi nicht mehr reagieren kann man die Stromversorgung über die vorgeschaltete Netzwerksteckdose trennen und neu verbinden.
+Dafür muss der Befehl `curl http://<ip>/switch/relay/turn_off -X POST` gefolgt von `curl http://<ip>/switch/relay/turn_on -X POST` auf z.B. dem Router ausgeführt werden.
+Die IP der Steckdose findet sich im 1password unter "powerplug01".
 
 == Netzwerk
 

@@ -1,0 +1,9 @@
+= Remote Access
+
+Diese Seite beschreibt wie man remote auf die Infrastruktur in Darmstadt zugreifen kann.
+
+Der Router leitet den Port 22 für SSH an den Homepi weiter. Daher kann man im Regelfall per `ssh root@homepi.home.bergmann.click` auf den Homepi zugreifen.
+
+Sollte das nicht gehen weil z.B. der Homepi nicht erreichbar ist kann man auf Port 24 den Router direkt erreichen.
+
+Sollte aus irgend welchen Gründen der DNS-Eintrag nicht aktualisiert werden gibt es auch hierfür einen Rückfall. Der Router ruft in regelmäßigen Abständen eine spezielle URL im uberspace auf. Dabei wird die Zeit und die aufrufende IP gespeichert. Die letzten Aufrufe können im uberspace über `cat /var/www/virtual/cbergman/lifeline.bergmann.click/*/last.json` eingesehen werden. Damit kann man über die IP-Adresse direkt zugreifen.
