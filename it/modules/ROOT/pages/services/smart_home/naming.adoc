@@ -50,8 +50,8 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |Stockwerk |Raum |Kürzel
 
 |Keller |Flur   |`kg_flur`
-|Keller |Links  |`kg_links`
-|Keller |Rechts |`kg_rechts`
+|Keller |Lager (links)  |`kg_lager`
+|Keller |Heizung (rechts) |`kg_heizung`
 |EG     |Flur   |`eg_flur`
 |EG     |Bad    |`eg_bad`
 |EG     |Garderobe  |`eg_garderobe`
