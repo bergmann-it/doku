@@ -15,7 +15,8 @@ Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
 
 |Lampe     |`lampe`
 |Leuchte   |`leuchte`
-|Fernbedigung  |`remote`
+|Fernbedienung  |`remote`
+|Dimmer  |`dimmer`
 |Bewegungsmelder  |`melder`
 |Server  |`server`
 |Mobiltelefon  |`phone`
