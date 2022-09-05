@@ -59,6 +59,7 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |EG     |Küche  |`eg_kueche`
 |EG     |Esszimmer |`eg_esszimmer`
 |EG     |Wohnzimmer    |`eg_wohnzimmer`
+|EG     |Hof    |`eg_hof`
 |ZG     |Flur   |`zg_flur`
 |OG1    |Flur   |`og1_flur`
 |OG1    |Bad    |`og1_bad`
