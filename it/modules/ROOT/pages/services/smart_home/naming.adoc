@@ -6,7 +6,7 @@ Um bei der Vielzahl der Devices und Entities im Home Assistant den Überblick ni
 
 Entities sind im Home Assitant immer im Format `<domain>.<entityname>` benannt. 
 Dieses Format wird bei uns in folgender Weise erweitert: `<domain>.<geräteart>_<bezeichnung>`
-Für Geräte mit festem Standort wird dieses Format wiederum erweitert: `<domain>.<geräteart>_<raum>_<stockwerk>[_<erweiterung>]`
+Für Geräte mit festem Standort wird dieses Format wiederum erweitert: `<domain>.<geräteart>_<stockwerk>_<raum>[_<erweiterung>]`
 
 Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
 
@@ -49,24 +49,24 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |===
 |Stockwerk |Raum |Kürzel
 
-|Keller |Flur   |`flur_kg`
-|Keller |Links  |`links_kg`
-|Keller |Rechts |`rechts_kg`
-|EG     |Flur   |`flur_eg`
-|EG     |Bad    |`bad_eg`
-|EG     |Garderobe  |`garderobe_eg`
-|EG     |Küche  |`kueche_eg`
-|EG     |Esszimmer |`esszimmer_eg`
-|EG     |Wohnzimmer    |`wohnzimmer_eg`
-|ZG     |Flur   |`flur_zg`
-|OG1    |Flur   |`flur_og1`
-|OG1    |Bad    |`bad_og1`
-|OG1    |Büro |`buro_og1`
-|OG1    |Schlafzimmer |`schlafzimmer_og1`
-|OG1    |Sophie |`sophie_og1`
-|OG2    |Flur |`flur_og2`
-|OG2    |Lego |`lego_og2`
-|OG2    |Leonard |`leonard_og2`
+|Keller |Flur   |`kg_flur`
+|Keller |Links  |`kg_links`
+|Keller |Rechts |`kg_rechts`
+|EG     |Flur   |`eg_flur`
+|EG     |Bad    |`eg_bad`
+|EG     |Garderobe  |`eg_garderobe`
+|EG     |Küche  |`eg_kueche`
+|EG     |Esszimmer |`eg_esszimmer`
+|EG     |Wohnzimmer    |`eg_wohnzimmer`
+|ZG     |Flur   |`zg_flur`
+|OG1    |Flur   |`og1_flur`
+|OG1    |Bad    |`og1_bad`
+|OG1    |Büro |`og1_buro`
+|OG1    |Schlafzimmer |`og1_schlafzimmer`
+|OG1    |Sophie |`og1_sophie`
+|OG2    |Treppe |`og2_treppe`
+|OG2    |Bett |`og2_leo_bett`
+|OG2    |Couch |`o2_leo_couch`
 
 
 |===
