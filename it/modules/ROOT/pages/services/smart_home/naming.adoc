@@ -67,8 +67,8 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |OG1    |Schlafzimmer |`og1_schlafzimmer`
 |OG1    |Sophie |`og1_sophie`
 |OG2    |Treppe |`og2_treppe`
-|OG2    |Bett |`og2_leo_bett`
-|OG2    |Couch |`o2_leo_couch`
+|OG2    |Bett |`og2_bett`
+|OG2    |Couch |`o2_couch`
 
 
 |===
