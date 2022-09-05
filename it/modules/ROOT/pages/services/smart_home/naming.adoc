@@ -15,6 +15,7 @@ Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
 
 |Lampe     |`lampe`
 |Leuchte   |`leuchte`
+|Gerätegruppe   |`group`
 |Fernbedienung  |`remote`
 |Dimmer  |`dimmer`
 |Bewegungsmelder  |`melder`
