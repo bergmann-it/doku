@@ -6,7 +6,7 @@ Sollte die Liste evtl unterbrochen werden müssen ist so evtl. das wichtigste sc
 
 == Packliste
 
-* [ ] Dokumentenmappe (xref:katastrophen/inhalt_dokumentenmappe.adoc[Inhalt])
+* [ ] Notfallmappe (xref:katastrophen/inhalt_dokumentenmappe.adoc[Inhalt])
 * [ ] Notfallrucksack
 ** [ ] Ersatzhandy
 ** [ ] 1. Hilfe Set
