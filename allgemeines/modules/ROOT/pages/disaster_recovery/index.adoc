@@ -9,7 +9,7 @@ Zum allgemeinen Verständniss der Infrastruktur dient diese gesammte Dokumentati
 Stufe 1 dient dazu Zugang zu den wichtigsten Zugangsdaten zu erlangen. Diese sind im link:https://bergmann.1password.eu[1password] gespeichert. Um dazu zugang zu gelangen gibt es einen extra dafür angelegten Gast-Benutzer mit Zugang zu einem speziellen Vault "Clemens Emergency Recovery". Die Zugangsdaten zu diesem Benutzer sind ausgedruckt in einem versiegelten Umschlag an zwei Stellen hinterlegt:
 
 * Bei meinen Eltern
-* Im Order "Dokumente" in unserem Büro
+* (xref:katastrophen/inhalt_dokumentenmappe.adoc["Notfallmappe"]) in unserem Büro
 
 In diesem Vault existiert eine Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" mit den Details zu Stufe 2.
 
