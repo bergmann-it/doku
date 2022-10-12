@@ -10,7 +10,7 @@ Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart 
 
 == USB Geräte
 
-Der Raspberry bekommt vom Netzteil 2500 mA. Selbst braucht er maximal 1500 mA. Bleiben noch ca. 1000 mA für Geräte.
+Der Raspberry bekommt vom Netzteil 3000 mA. Selbst braucht er maximal 1500 mA. Bleiben noch ca. 1500 mA für Geräte.
 
 |===
 |Gerät |Modell |Stromverbrauch
