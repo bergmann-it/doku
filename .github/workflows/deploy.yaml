@@ -3,6 +3,7 @@ on:
   push:
   repository_dispatch:
     types: [update_doku]
+  workflow_dispatch:
 jobs:
   deploy:
     name: Deploy
