@@ -30,6 +30,8 @@ Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
 |Software|`software`
 |Steckdose|`steckdose`
 |Thermostat|`thermostat`
+|Fenster Öffnungssensor|`fenster`
+|Rolladensteuerung|`rolladen`
 
 |===
 
