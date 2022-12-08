@@ -156,7 +156,7 @@ Unten die wichtigsten Hosts im Überblick:
 |Router |link:https://gw-1.bergmann.click/[192.168.8.1]       |/32    |
 |IP für Broardcast MAC für WOL |192.168.8.3      |    |
 |Master Nodes                              |192.168.8.16-18   |/28    |
-|Homepi                                    |192.168.8.16     |xref:homepi.adoc[Homepi]
+|Homepi                                    |192.168.8.16     |/32 |xref:homepi.adoc[Homepi]
 |DHCP Bereich für worker nodes             |192.168.8.19-31   |/28    |
 |MetalLB                                   |192.168.8.32-63   |/27    |
 |Reserviert                                |192.168.8.241-254 |/28    |
