@@ -111,7 +111,8 @@ Unten die wichtigsten Hosts im Überblick:
 |AP EG                                     |192.168.1.241     |xref:services/wifi.adoc[Wifi]
 |AP OG1                                    |192.168.1.242     |xref:services/wifi.adoc[Wifi]
 |link:https://192.168.1.244/[ATA Adapter]  |192.168.1.244     |xref:services/telefon.adoc[Telefon]
-|link:http://192.168.1.245/[Switch]        |192.168.1.245     |
+|link:http://192.168.1.245/[Switch sw-01]        |192.168.1.245     |
+|link:http://192.168.1.246/[Switch sw-02]        |192.168.1.246     |
 |=== 
 
 === WAN-Fallback
