@@ -30,6 +30,7 @@ Folgende Gerätearten (`<geräteart>`) sind bis jetzt verwendet:
 |Software|`software`
 |Steckdose|`steckdose`
 |Thermostat|`thermostat`
+|link:https://better-thermostat.org[Better Thermostat]|`bthermostat`
 |Fenster Öffnungssensor|`fenster`
 |Rolladensteuerung|`rolladen`
 
@@ -66,7 +67,7 @@ Folgende Räume (`raum`) sind bis jetzt vergeben:
 |ZG     |Flur   |`zg_flur`
 |OG1    |Flur   |`og1_flur`
 |OG1    |Bad    |`og1_bad`
-|OG1    |Büro |`og1_buro`
+|OG1    |Büro |`og1_buero`
 |OG1    |Schlafzimmer |`og1_schlafzimmer`
 |OG1    |Sophie |`og1_sophie`
 |OG2    |Treppe |`og2_treppe`
