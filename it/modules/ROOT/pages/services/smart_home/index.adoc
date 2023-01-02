@@ -10,22 +10,6 @@ Daher werden alle Geräte lokale vom xref:homepi.adoc[Homepi] und daran angeschl
 Zur Verwaltung und Steuerung verwenden wir die Software link:https://home-assistant.io[Home Assistant] welche unter https://hass.bergmann.click sowohl von innerhalb als auch aus dem Internet erreichbar ist. Jedes Familienmitglied hat seinen eigenen Zugang mit verschiedenen Rechten.
 Zur benennung der Entities und Devices im Home Assistant siehe xref:services/smart_home/naming.adoc[Smart Home Naming].
 
-== Z-Wave
-
-Einige der Komponenten sind per link:https://de.wikipedia.org/wiki/Z-Wave[Z-Wave] vernetzt.
-Dazu ist am Homepi ein link:https://aeotec.com/z-wave-usb-stick[AEON Labs ZW090 Z-Stick Gen5 EU] USB Stick angeschlossen der als Zentrale des Z-Wave Netztes dient.
-Geräte können direkt über link:https://hass.bergmann.click/config/zwave[Home Assistant] verwaltet werden.
-
-Aktuell sind folgende Geräte so angeschlossen:
-
-=== Thermostate
-
-An den Heizkörpern im Haus sind link:https://www.devolo.de/devolo-home-control-heizkoerperthermostat[Devolo Home Control Heizkörperthermostate] angeschlossen. Diese können sowohl die Temparatur messen als auch steuern.
-
-=== Smarte Steckdosen/Repeater
-
-Da das Haus recht groß ist und der Homepi im Keller steht können nicht alle Thermostate den Homepi direkt erreichen. Daher können dauerhaft mit Strom versorgte Z-Wave Geräte als Repeater dienen. Die Thermostate können das nicht, da sie Batteriegetrieben sind und daher zum Stromsparen nur in regelmäßigen Abständen aufwachen und über das Netz ihre konfiguration abfragen und Werte abliefern. Für ein stabiles Netz haben wir daher zwei link:https://www.szneo.com/en/products/show.php?id=189[Z-Wave Steckdosen] im Wohnzimmer und Arbeitszimmer die als Repeater dienen. 
-
 == Zigbee
 
 Einige der Komponenten sind per link:https://de.wikipedia.org/wiki/ZigBee[Zigbee] vernetzt.
@@ -46,6 +30,10 @@ In jedem Zimmer wird die Temparatur über die Thermostate gemessen.
 Da Leonards Heizkörper auf dem Zwischengeschoss zum Dachgeschoss ist kann es (vor allem im Sommer) vorkommen, dass die Temparatur zwischen Heizkörper und Zimmer recht stark abweicht.
 Daher ist dort zusätzlich ein link:https://www.amazon.de/dp/B07SB2C327[Aquara Multisensor angebracht]. Dieser misst Temparatur, Luftfeuchte und Luftdruck.
 
+=== Thermostate
+
+An den Heizkörpern im Haus sind link:https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html[TuYa TV02-Zigbee] angeschlossen. Diese können sowohl die Temparatur messen als auch steuern.
+
 == Wifi
 
 Einige Komponenten sind direkt per xref:services/wifi.adoc[wlan] angeschlossen. 
@@ -55,6 +43,7 @@ Einige Komponenten sind direkt per xref:services/wifi.adoc[wlan] angeschlossen.
 WLAN Steckdosen sind häufig günstiger als Z-wave oder Zigbee Steckdosen.
 Daher haben wir zwei link:https://www.amazon.de/dp/B089LRRZNN[dieser Steckdosen].
 Auf den Steckdosen wurde link:https://esphome.io[ESPHome] entsprechend link:https://frenck.dev/calibrating-an-esphome-flashed-power-plug/[dieser Anleitung] installiert.
+Das hat außerdem den Vorteil, dass diese auch erreichbar sind wenn der xref:homepi.adoc[Homepi] nicht funktioniert. Damit kann dieser im xref:homepi.adoc#_notfall_reboot[Notfall rebootet werden].
 
 == Homematic IP
 
