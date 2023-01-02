@@ -15,10 +15,8 @@ Verbindet man sich mit dem Server kommt man immer in die Lobby und kann dann üb
 Damit man auch spielen kann, wenn man z.B. im Urlaub ist, ist der Rechner so konfiguriert, dass man ihn auch von remote starten kann.
 Dazu geht man wie folgt vor:
 
-. Verbinden per ssh mit dem xref:homepi.adoc[Homepi].
-. Den Rechner per etherwake aufwecken: +etherwake 70:85:c2:bd:8c:0e+
-. Per link:https://teamviewer.com[Teamviewer] verbinden. Zugansdaten sind unter "Teamviewer neuesding" im 1password.
-. Login mit einem User.
-. Starten von MCSS über den Startmenü-Eintrag.
+. Im Home Assistant Server durch Click auf Symbol im Büro starten.
+. Warten bis PC hochgefahren ist.
+. Login auf link:https://minecraft.bergmann.click[MCSS Konsole] und Proxy, Lobby und gewünschten Server starten.
 
-NOTE: Um das Spiel nicht zu unterbrechen wird die Stromsparfunktion des Rechners beim Start des Servers abgeschaltet. Daher ist es wichtig, nach dem Spiel den Server zu stoppen und den Rechner herunter zu fahren um Strom zu sparen.
+NOTE: Um das Spiel nicht zu unterbrechen wird die Stromsparfunktion des Rechners beim Start des Servers abgeschaltet. Daher ist es wichtig, nach dem Spiel den Server zu stoppen und den Rechner herunter zu fahren um Strom zu sparen. Passiert das nicht wird der Rechner um 01:00 automatisch herunter gefahren.
