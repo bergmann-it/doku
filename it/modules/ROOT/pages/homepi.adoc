@@ -23,14 +23,6 @@ Der Raspberry bekommt vom Netzteil 3000 mA. Selbst braucht er maximal 1500 mA. B
 |link:https://www.kingston.com/germany/de/ssd/a400-solid-state-drive[Kingston SA400S37/120G]
 |310 mA
 
-|USB-Hub
-|link:https://www.digitus.info/de/produkte/computer-und-office-zubehoer/computer-zubehoer/usb-komponenten-und-zubehoer/hubs-und-kartenleser/da-70217/[Digitus DA-70217]
-|1 mA
-
-|Z-Wave Stick
-|link:https://help.aeotec.com/support/solutions/articles/6000167094-z-stick-gen5-technical-specifications[Aeotec Z-Stick Gen5]
-|98mA
-
 |Zigbee Stick
 |link:https://phoscon.de/de/conbee2[dresden elektronik ConBee II]
 |60 mA
@@ -70,11 +62,6 @@ Folgende Dienste laufen auf dem Homepi:
 |+/home/homeassistant/.homeassistant/configuration.yaml+
 |xref:services/smart_home/index.adoc[Smart Home]
 
-|link:https://deconz.bergmann.click[Zigbee Zentrale]
-|link:https://phoscon.de/de/app/doc[Phoscon App]
-|
-|xref:services/smart_home/index.adoc[Smart Home]
-
 |Zabbix Proxy
 |link:https://www.zabbix.org[Zabbix] Proxy
 |+/etc/zabbix/zabbix_proxy.conf+
@@ -105,24 +92,9 @@ Folgende Dienste laufen auf dem Homepi:
 |+/var/lib/unifi+
 |xref:services/wifi.adoc[Wifi]
 
-|Mumble Server
-|link:https://wiki.mumble.info/wiki/Murmurguide[Mumble Murmur]
-|+/etc/mumble-server.ini+
-|xref:services/mumble.adoc[Mumble]
-
-|Reverse Proxy
-|link:https://www.nginx.com/[NGINX]
-|+/etc/nginx/nginx.conf+
+|Kubernetes Node
+|link:https://k3s.io/[k3s]
 |
-
-|link:https://torrents.bergmann.click/[Bittorrent Server]
-|link:https://dev.deluge-torrent.org/wiki/UserGuide/Service[deluged und deluge-web]
-|+/var/lib/deluge/.config/deluge+
-|xref:services/bittorrent.adoc[Bittorent]
-
-|link:https://pihole.bergmann.click/admin[Pihole DNS Filter]
-|link:https://pi-hole.net/[PI-hole]
-|+/etc/pihole/setupVars.conf+
-|xref:services/dns_filter.adoc[DNS Filter]
+|xref:k8s::index.adoc[K8S]
 
 |===
