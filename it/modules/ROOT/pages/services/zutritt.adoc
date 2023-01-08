@@ -1,0 +1,26 @@
+= Zutritt
+
+
+== Hoftor/Klingel
+
+Vor dem Hoftor ist eine link:https://www.2n.com/de_DE/produkte/tursprechanlagen/2n-entrycom-ip-verso[2N IP Verso] als Klingel und zur Zutrittskontrolle installiert. Die Klingel ist direkt mit dem link:https://secure.effeff.de/de/de/produktkatalog/effeff-p94885-elektro-tueroeffner-118e-a71[elektrischen Türöffner] verbunden.
+
+Alle Anschlüssel der Klingel sind auf link:https://www.amazon.de/dp/B097M2RD4M[Steckklemmen] im Keller geführt. Dort können direkt andere Geräte angeschlossen werden. Z.b. der Öffnerknopf.
+
+Das Web-Interface der Klingel ist unter link:https://klingel.bergmann.click[klingel.bergmann.click] oder direkt über die lokale IP Adresse link:https://192.168.2.241[192.168.2.242] erreichbar.
+
+Die Klingel funktioniert als Telefon und ruft, je nach gedrückter Taste, eine Zielrufnummer an. Nach dem Abnehmen kann durch Drücken der 0 das Hoftor geöffnet werden.
+
+Außerdem ist an der Klingel über PIN oder NFC-Tag ein Zugang möglich. 
+
+== Hautür
+
+Die Haustür ist mit einem link:https://www.inosmart.info/de/[Inosmart Türöffnungssystem BT 610] ausgestattet. Damit ist eine Öffnung der Haustür sowohl über PIN-Code als auch über Fingerabdruck möglich. An die Haustür ist ein link:https://shelly-api-docs.shelly.cloud/gen2/Devices/ShellyPlus1/[Shelly Plus 1] angeschlossen. Damit kann die Hausautomatisierung sowohl erkennen wenn die Tür authorisiert geöffnet wurde als auch die Tür entriegeln. 
+
+== Schlüsselverwaltung
+
+Welcher Schlüssel an welche Person ausgegeben wurde wird in einer Datei festgehalten welche im OneDrive unter `Haus\schluessel.xlsx` abgelegt ist.
+
+== Notfallzugang
+
+Sollte der Strom über längere Zeit ausfallen ist der Zugang über die elektronischen Schließmittel nicht mehr möglich. Der Zugang ist aber weiterhin über Schlüssel möglich. Für den Notfall haben wir sowohl im Haus als auch bei Freunden in der Nähe entsprechende Ersatzschlüssel deponiert.

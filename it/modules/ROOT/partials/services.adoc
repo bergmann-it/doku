@@ -2,6 +2,7 @@
 ** xref:services/wifi.adoc[Wifi]
 ** xref:services/smart_home/index.adoc[Smart Home]
 ** xref:services/minecraft.adoc[Minecraft]
+** xref:services/zutritt.adoc[Zutritt]
 ** xref:services/onedrive.adoc[Onedrive]
 ** xref:services/telefon.adoc[Telefon]
 ** xref:services/mails.adoc[Mails]
