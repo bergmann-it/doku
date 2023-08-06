@@ -15,6 +15,6 @@
 |08 | Steuerunterlagen (Bescheid und Identifikationsnummern)
 |09 | Zeugnisse (Abi T., Abi C., Bachelor C., Master C.)
 |10 | Schätzungsurkunden Frankensteiner Str. 15
-|11 | 
+|11 | Erbauseinandersetzung zu  Frankensteiner Str. 15
 |12 | Stammbuch
 |===
