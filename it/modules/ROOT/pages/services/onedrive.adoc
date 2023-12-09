@@ -1,0 +1,7 @@
+= OneDrive
+
+Die meisten unserer Daten werden in einem Microsoft OneDrive gespeichert. Durch die Office Linzenz hat jedes Familienmitglied 1 TB Speicher zur Verfügung. Die meisten Daten sind im Dokumente-Ordner von Tianes OneDrive.
+
+== Backup
+
+Einige Systeme (z.B. der Homepi) machen regelmäßige Backups. Diese werden über link:https://restic.net/[restic] in OneDrive verwaltet. Die Daten dazu werden in Clemens OneDrive unter `system` gespeichert.

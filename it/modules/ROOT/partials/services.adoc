@@ -10,4 +10,3 @@
 ** xref:services/doku.adoc[Doku]
 ** xref:services/cloud.adoc[Cloud]
 ** xref:services/ffsync.adoc[ffsync]
-** xref:services/genealogie.adoc[genealogie]

@@ -1,0 +1,33 @@
+= Telefon
+
+Mit unserem DSL Anschluss beziehen wir auch Telefonie von der Telekom. 
+
+== Nummern
+
+Die aktuellen vollständigen Nummern können im link:https://telefoniecenter.sgp.telekom.de/fcc[Telefoniecenter der Telekom] eingesehen werden. Hier werden nur die gekürzten Nummern wiedergegeben.
+
+|===
+|Nummer   |Beschreibung
+
+|[...]177 |Hauptnummer Bergmann
+|[...]0   |Leonard
+|[...]1   |Sophie
+|[...]6   |Mietwohnung
+|[...]3   |Klingelanruf
+|[...]277 |Klingel
+|===
+
+== Endgeräte
+
+=== DECT Basis
+
+In der Stockwerken sind 5 DECT Telefone verteilt. Vier davon im Haupthaus, eines im Mietobjekt. Letzteres wird nur für die Klingel benötigt.
+Die SIP-DECT-Basis hängt im Flur im 1. OG. Diese wird über POE mit Strom versorgt und verbindet sich über SIP direkt mit der Telekom.
+
+=== ATA-Adapter
+
+Im Keller befindet sich ein ATA Adapter. Dieser verbindet sich per SIP mit der Telekom und stellt zwei analoge a/b-Schnittstellen zur Verfügung. An einer davon ist ein gelbes link:https://de.wikipedia.org/wiki/Fernsprechtischapparat#FeTAp_61[FeTAp 614] auf dem Schreibtisch im 1. OG angeschlossen. An der zweiten ein link:https://www.amazon.de/dp/B071D5NW6R[Amazon-Echo-Connect].
+
+=== Klingel
+
+Die Klingel ist auch ein SIP-Telefon. Details dazu unter xref:services/zutritt.adoc#_hoftorklingel[Zutritt].
