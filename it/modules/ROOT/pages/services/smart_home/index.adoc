@@ -8,7 +8,7 @@ Das bedeutet sie können elektronisch ferngesteuert werden.
 Bei der Erstellung dieses Smart-Homes war es mein Bestreben, dass so wenige Daten wie möglich nach außen gelangen.
 Daher werden alle Geräte lokale vom xref:homepi.adoc[Homepi] und daran angeschlossenen Schnittstellen gesteuert.
 Zur Verwaltung und Steuerung verwenden wir die Software link:https://home-assistant.io[Home Assistant] welche unter https://hass.bergmann.click sowohl von innerhalb als auch aus dem Internet erreichbar ist. Jedes Familienmitglied hat seinen eigenen Zugang mit verschiedenen Rechten.
-Zur benennung der Entities und Devices im Home Assistant siehe xref:services/smart_home/naming.adoc[Smart Home Naming].
+Zur Benennung der Entities und Devices im Home Assistant siehe xref:services/smart_home/naming.adoc[Smart Home Naming].
 
 == Zigbee
 
@@ -27,12 +27,15 @@ Ebenso finden sich im Haus die entsprechenden Schalter, Dimmer und Bewegungsmeld
 === Thermometer/Luftqualität
 
 In jedem Zimmer wird die Temparatur über die Thermostate gemessen.
-Da Leonards Heizkörper auf dem Zwischengeschoss zum Dachgeschoss ist kann es (vor allem im Sommer) vorkommen, dass die Temparatur zwischen Heizkörper und Zimmer recht stark abweicht.
-Daher ist dort zusätzlich ein link:https://www.amazon.de/dp/B07SB2C327[Aquara Multisensor angebracht]. Dieser misst Temparatur, Luftfeuchte und Luftdruck.
+In fast allen Zimmern ist zusätzlich ein link:https://www.amazon.de/dp/B07SB2C327[Aquara Multisensor angebracht]. Dieser misst Temparatur, Luftfeuchte und Luftdruck.
 
 === Thermostate
 
 An den Heizkörpern im Haus sind link:https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html[TuYa TV02-Zigbee] angeschlossen. Diese können sowohl die Temparatur messen als auch steuern.
+
+=== Rolläden
+
+An den Fenstern sind elektrische Rolläden verbaut. An jedem Rolladen ist ein link:https://www.zigbee2mqtt.io/devices/MS-108ZR.html[Moes MS-108ZR] angeschlossen. Neben der Steuerung über die Hausautomatisierung ist bei allen Rolläden auch eine Funk-Ferbedienung angelernt. Diese funktioniert unabhängig von der Hausautomatisierung.
 
 == Wifi
 
@@ -44,6 +47,18 @@ WLAN Steckdosen sind häufig günstiger als Z-wave oder Zigbee Steckdosen.
 Daher haben wir zwei link:https://www.amazon.de/dp/B089LRRZNN[dieser Steckdosen].
 Auf den Steckdosen wurde link:https://esphome.io[ESPHome] entsprechend link:https://frenck.dev/calibrating-an-esphome-flashed-power-plug/[dieser Anleitung] installiert.
 Das hat außerdem den Vorteil, dass diese auch erreichbar sind wenn der xref:homepi.adoc[Homepi] nicht funktioniert. Damit kann dieser im xref:homepi.adoc#_notfall_reboot[Notfall rebootet werden].
+
+=== Haustür
+
+Diese ist indirekt über ein Shelly angeschlossen. Details siehe xref:services/zutritt.adoc[Zutritt].
+
+Außerdem sind innen rund um die Glasscheibe der Haustür 144 link:https://www.amazon.de/gp/product/B01MYV70NJ[SK6812 RGBW-LEDS] verbaut. Diese werden von einem link:https://www.amazon.de/gp/product/B071ZCZJYK/[entsprechenden Netzteil] im Keller mit Strom versorgt und von einem link:https://www.amazon.de/gp/product/B0C4STTYRM[SP511E LED Controller] gesteuert. Auf diesem ist link:https://kno.wled.ge/[WLED] installiert und er ist unter http://192.168.2.184/ erreichbar.
+
+=== Heizung
+
+An der Zentralheizung ist ein link:https://1coderookie.github.io/BSB-LPB-LAN/[BSB-LAN] Adapter angeschlossen. Dieser ist über http://192.168.2.187/ erreichbar und hierüber können verschiedene Parameter der Heizung ausgelesen und konfiguriert werden.
+
+INFO: Bis jetzt funktioniert die Einbindung in die Hausautomatisierung noch nicht.
 
 == Homematic IP
 
