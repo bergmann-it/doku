@@ -1,49 +1,9 @@
 = Netzwerk
 
-== Physikalisches Netzwerk
+== Netzwerkübersicht
 Das Netzwerk in der Frankensteiner Str. 15 ist relativ einfach um den Mittelpunkt im Kellerflur aufgebaut:
 
-[svgbob]
-....
-------+---------------------------------------------------------------------------------------
-2. OG |                                          
-------'                                               
-                                               
-------+------------------------------+-+------+-------------------+-+-------+-----------------
-1. OG |                              | | Flur | +-----------+     | | Buero | +---------+
-------'                              | '------' | AP        |     | '-------' | Gelbes  |
-                                     |          | 1. OG     +---. |           | Telefon +-.
-                                     |          +-----------+   | |           +---------+ |
-                                     |                          | |                       |
-                                     |          +-------+       | | .--O                  |
-                                     |          | DECT  |       | | |                     |
-                                     |          | Basis +-------|-|-|-.                   |
-                                     |          +-------+       | | | |                   |
-                                     |                          | | | |                   |
----+---------------------------------+--------------------------+-+-+-+-------------------+---
-EG |                                            +-----------+   |   | |                   |
----'                                            | AP        |   |   | |                   |
-                                                | Garderobe +-. |   | |                   |
-                                                +-----------+ | |   | |                   |
--------+------------+-+--------------+--+-+------+------------+-+---+-+-------------------+---
-Keller |            | | Heizungsraum |  | | Flur |            | |   | |                   |
--------'            | '--------------'  | '------'            | |   | |                   |
-    .-,(  ),-.      |    +-------+      |     +-----------+   | |   | |                   |
- .-(          )-.   |    | VDSL  |      |     |   Router  |   | |   | |                   |
-(    internet    )--+----+ Modem |      |    ,+-         -+.  | |   | |  +---------+      |
- '-(          ).-'  |    |       +------+----+ eth0   eth4 +--' |   | |  | Switch  |      |
-     '-.( ).-'      |    +-------+      |    `+-      eth3 +----'   | | ,+-        |      |
-                    |                   |     |       eth1 +--------' `-+ port4   -+.     |
-                    |                   |     |       eth2 +------------+ port1     +--.  |
-                    |                   |     |          -+'  .---------+ port2   -+'  |  |
-                    |                   |     +-----------+   |         `+-        |   |  |
-                    |                   |                     |          +---------+   |  |
-                    |                   |                     |                        |  |
-                    |                   |               +-----+--+                +----+--+-+ 
-                    |                   |               | Homepi |                | ATA     |
-                    |                   |               |        |                | Adapter |
-                    |                   |               +--------+                +---------+
-....
+image::network.drawio.svg[] 
 
 == Netzwerkdosen
 
@@ -62,7 +22,7 @@ Keller |            | | Heizungsraum |  | | Flur |            | |   | |         
 
 == Uplink
 
-Der Uplink ist eine DOCSIS Leitung von link:https://www.unitymedia.de/benutzerkonto/login/zugangsdaten[Vodafone] (ehemals Unitymedia).
+Der Uplink ist eine 250 Mbit/s DSL Leitung von der link:https://www.telekom.de/mein-kundencenter[Telekom].
 
 Es gibt verschiedene Wege von außen auf die Infrastruktur zuzugreifen. Details dazu auf der Seite xref:services/uplink/remote_access.adoc[Remote access].
 
