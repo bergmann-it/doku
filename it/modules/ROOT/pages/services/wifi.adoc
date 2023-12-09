@@ -2,7 +2,7 @@
 
 == Hardware
 
-Das Wifi Netzwerk besteht zu einen aus dem Unifi Controller welcher auf dem xref:homepi.adoc[Homepi] läuft und aus zwei link:https://www.ui.com/unifi/unifi-ap-ac-lite/[Unifi AP AC lite].
+Das Wifi Netzwerk besteht zu einen aus dem Unifi Controller welcher auf dem xref:homepi.adoc[Homepi] läuft, aus zwei link:https://www.ui.com/unifi/unifi-ap-ac-lite/[Unifi AP AC lite] (ap-eg, ap-keller) und einem link:https://techspecs.ui.com/unifi/wifi/u6-plus[Unifi U6+] (ap-og1).
 
 == Controller
 
