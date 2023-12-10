@@ -1,0 +1,5 @@
+= Cloud
+
+Unter https://cloud.cbergmann.net auf dem xref:services/websites.adoc[Uberspace] läuft eine link:https://nextcloud.com[Nextcloud] Instanz.
+
+Diese wird hauptsächlich von Clemens zur Synchronisation von Kontakten (per CardDAV) und Kalendereintägen (per CalDAV) verwendet.

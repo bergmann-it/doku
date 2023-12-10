@@ -11,3 +11,11 @@ Die Schnittstelle zum Uberspace-Mailsystem ist die Datei `/home/cbergman/.qmail-
 In der Datei `/home/cbergman/.mailfilter` wird über Regeln festgelegt, welche Mail in welches Postfach zugestellt werden soll.
 
 Details zu Domains unter xref:services/dns.adoc[DNS].
+
+== Catchall Domains
+
+Neben einzelnen Mail Adressen gibt es auch ein catchall setup für die meisten Domains.
+
+Das bedeutet, dass Mailadressen welche nicht explizit anderweitig konfiguriert sind in ein Standardpostfach für diese Domain geleitet werden. Das ermöglicht, das man sich ad-hoc neue Mail Adressen ausdenken kann und diese in das entsprechende Postfach zugestellt werden. So kann man z.B. für die Registrierung bei einem Service eine beliebige Adresse verwenden. Sollte dann über diese mail Adresse übermäßig viel Spam empfangen werden, kann diese gezielt gesperrt werden.
+
+Die aktuelle Konfiguration findet sich in `/home/cbergman/.mailfilter`.
