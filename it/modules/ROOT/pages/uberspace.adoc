@@ -22,8 +22,8 @@ Folgende Dienste laufen auf dem uberspace:
 |Dienst |Software |Config-File |Details
 
 |Mails
-|Uberspace Mail
-|
+|link:Uberspace Mail
+|+/home/cbergman/.mailfilter+
 |xref:services/mails.adoc[Mails]
 
 |Websites
@@ -60,8 +60,5 @@ Folgende Dienste laufen auf dem uberspace:
 |link:https://www.humo-gen.com[HuMoGen]
 |+/var/www/virtual/cbergman/genealogie.bergmann.click/include/db_login.php+
 |xref:services/genealogie.adoc[genealogie]
-
-
-
 
 |===

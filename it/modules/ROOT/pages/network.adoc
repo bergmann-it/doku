@@ -51,7 +51,7 @@ Details zum wlan finden sich auf einer extra Seite: xref:services/wifi.adoc[Wifi
 
 == DNS
 
-Die Domain home.bergmann.click ist bei https://dynv6.com gehostet. Die IPv4 Adresse wird vom Router per ddclient aktualisiert. Um auch die IPv6 Adresse und das deligierte Präfix zu aktualisieren existiert ein zusätzliches link:https://github.com/bergmann-it/edgeos-scripts[Script].
+Details zum DNS setup findet sich auf der Seite xref:services/dns.adoc[DNS]
 
 == Hosts
 
@@ -85,7 +85,7 @@ Unten die wichtigsten Hosts im Überblick:
 |Kerninfrastruktur                         |192.168.2.241-254 |/28
 |ATA Adapter  |link:https://192.168.2.243/[192.168.2.243]     |xref:services/telefon.adoc[Telefon]
 |DECT-Basis  |link:https://192.168.2.242/[192.168.2.242]     |xref:services/telefon.adoc[Telefon]
-|Klingel  |link:https://192.168.2.241/[192.168.2.241]     |xref:services/klingel.adoc[Klingel]
+|Klingel  |link:https://192.168.2.241/[192.168.2.241]     |xref:services/zutritt.adoc#_hoftorklingel[Klingel]
 |=== 
 
 

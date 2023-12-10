@@ -1,3 +1,4 @@
+** xref:services/dns.adoc[DNS]
 ** xref:services/monitoring.adoc[Monitoring]
 ** xref:services/wifi.adoc[Wifi]
 ** xref:services/smart_home/index.adoc[Smart Home]

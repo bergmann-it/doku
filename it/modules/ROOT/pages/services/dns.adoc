@@ -1,0 +1,22 @@
+= DNS
+
+== Domainregistrierung
+
+Unsere Domains sind alle bei link:https://www.inwx.de/[INWX] registriert. Dort gibt es einen extra Account für die Domain des link:https://asylkreis-darmstadt.de/[KOKAS Darmstadt]. Alle anderen Domains können unter dem Haupt-Account verwaltet werden. Credentails finden sich im link:https://bergmann.1password.eu[1password].
+
+== Nameserver
+
+Auch als Nameserver verwenden wir den Service von INWX. Dort können einfach link:https://www.inwx.de/de/nameserver2[statische Einträge] vorgenommen werden.
+
+=== DynDNS
+
+Unser Internet-Uplink zuhause hat eine dynamische IP-Adresse. Alles dort wird unterhalb der Domain home.bergmann.click bei https://dynv6.com gehostet. Die IPv4 Adresse wird vom Router per ddclient aktualisiert. Um auch die IPv6 Adresse und das deligierte Präfix zu aktualisieren existiert ein zusätzliches link:https://github.com/bergmann-it/edgeos-scripts[Script].
+
+== Neue (Sub-)Domains
+
+Sollten neue Domains oder Subdomains eingerichtet werden müssen kann wie folgt vorgegangen werden:
+
+ . Evtl. Registrierung der Domain bei INWX
+ . Wenn xref:services/mails.adoc[Mail] gewünscht werden registrierung im Uberspace per `uberspace mail domain add`.
+ . Wenn eine xref:services/websites.adoc[Website] gewünscht wird registrierung im Uberspace per `uberspace web domain add`.
+ . Die vorigen Commands geben jeweils die nötigen Einträge für die link:https://www.inwx.de/de/nameserver2[INWX Domainserver] aus.

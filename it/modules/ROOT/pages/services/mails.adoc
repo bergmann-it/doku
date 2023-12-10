@@ -1,0 +1,13 @@
+= Mails
+
+Alle Mails werden in unserem xref:uberspace.adoc[Uberspace] verwaltet.
+
+Allgemeine Details zur Konfiguration findet sich in der link:https://manual.uberspace.de/mail-access/[Uberspace Doku].
+
+Die Postfächer der Accounts finden sich in den Ordner unterhalb von `/home/cbergman/users`. Neue Postfächer können mit dem Befehl `uberspace mail user add` angelegt werden. Mit `uberspace mail user password` kann ein neues Passwort gesetzt werden.
+
+Die Schnittstelle zum Uberspace-Mailsystem ist die Datei `/home/cbergman/.qmail-default`. Dort wird festgelegt, dass alle Mails von link:https://manpages.debian.org/bookworm/maildrop/maildrop.1.en.html[maildrop] zugestellt werden.
+
+In der Datei `/home/cbergman/.mailfilter` wird über Regeln festgelegt, welche Mail in welches Postfach zugestellt werden soll.
+
+Details zu Domains unter xref:services/dns.adoc[DNS].

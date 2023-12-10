@@ -1,0 +1,10 @@
+= Websites
+
+Alle Websites werden in unserem xref:uberspace.adoc[Uberspace] verwaltet.
+
+Allgemeine Details zur Konfiguration findet sich in der link:https://manual.uberspace.de/web-documentroot/[Uberspace Doku].
+
+Unter `/var/www/virtual/cbergman` findet sich für jede Subdomain ein Unterverzeichniss. 
+
+Details zu Domains unter xref:services/dns.adoc[DNS].
+
