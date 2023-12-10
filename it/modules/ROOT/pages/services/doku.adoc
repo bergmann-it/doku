@@ -1,0 +1,9 @@
+= Dokumentation
+
+Die Dokumentation der Infrastruktur ist unter https://doku.bergmann.click zu finden. Diese Webseite wird im xref:services/websites.adoc[Uberspace] gehosted.
+
+Sie ist in link:https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc] geschrieben und wird mit dem Generator link:https://antora.org/[Antora] erstellt.
+
+Der Sourcecode ist größtenteils öffentlich in link:https://github.com/bergmann-it/doku[GitHub] zu finden. Wenn die Dokumentation Infrastruktur anderer Personen beinhaltet sind diese Teile in privaten Repos und nicht in der Suche indiziert.
+
+Die aktuelle Version des Repos ist im Home Directory des Uberspace abgelegt. Sobald eine neue Version in GitHub ankommt wird ein link:https://github.com/bergmann-it/doku/blob/main/.github/workflows/deploy.yaml[github Workflow] gestartet. Dieser triggert per SSH ein link:https://github.com/bergmann-it/doku/blob/main/build.sh[Script] welches die Webseite neu baut.
