@@ -24,7 +24,7 @@ Der Raspberry bekommt vom Netzteil 3000 mA. Selbst braucht er maximal 1500 mA. B
 |310 mA
 
 |Zigbee Stick
-|link:https://phoscon.de/de/conbee2[dresden elektronik ConBee II]
+|link:https://zig-star.com/projects/zigbee-stick-v4/[Zigstar Zigbee Stick v4]
 |60 mA
 
 |HomeMatic Modul

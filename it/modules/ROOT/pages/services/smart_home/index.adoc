@@ -9,12 +9,14 @@ Bei der Erstellung dieses Smart-Homes war es mein Bestreben, dass so wenige Date
 Daher werden alle Geräte lokale vom xref:homepi.adoc[Homepi] und daran angeschlossenen Schnittstellen gesteuert.
 Zur Verwaltung und Steuerung verwenden wir die Software link:https://home-assistant.io[Home Assistant] welche unter https://hass.bergmann.click sowohl von innerhalb als auch aus dem Internet erreichbar ist. Jedes Familienmitglied hat seinen eigenen Zugang mit verschiedenen Rechten.
 Zur Benennung der Entities und Devices im Home Assistant siehe xref:services/smart_home/naming.adoc[Smart Home Naming].
+Außerdem ist es wichtig, dass die wichtigsten Funktionen (Licht, Rolläden) auch ohne die Zentrale funktionieren. So sind z.B. die Lichter in Gruppen welche direkt über Zigbee von den Fernbedinungen gesteuert werden. So funktionieren die Lichtschalter auch wenn die Zentrale ausfällt.
+
 
 == Zigbee
 
 Einige der Komponenten sind per link:https://de.wikipedia.org/wiki/ZigBee[Zigbee] vernetzt.
-Dazu ist am Homepi ein link:https://www.phoscon.de/de/conbee2[conbee II] USB Stick angeschlossen der als Zentrale des Zigbee Netztes dient.
-Neue Komponenten können über die link:https://phoscon.de/de/app/doc[Phoscon App] welche unter https://deconz.bergmann.click erreichbar ist hinzugefügt werden.
+Dazu ist am Homepi ein link:https://zig-star.com/projects/zigbee-stick-v4/[Zigstar Zigbee Stick v4] USB Stick angeschlossen der als Zentrale des Zigbee Netztes dient.
+Neue Komponenten können über die link:https://www.zigbee2mqtt.io/[Zigbee2MQTT] welche unter https://zigbee.bergmann.click erreichbar ist hinzugefügt werden.
 Ebenso können dort Gruppen mit Schalter und Bewegungsmelder-Konfigurtionen verwaltet werden. Diese Geräte tauchen dann als Entities in Home Assistant auf.
 
 Aktuell sind folgende Geräte so angeschlossen:
@@ -35,7 +37,7 @@ An den Heizkörpern im Haus sind link:https://www.zigbee2mqtt.io/devices/TV02-Zi
 
 === Rolläden
 
-An den Fenstern sind elektrische Rolläden verbaut. An jedem Rolladen ist ein link:https://www.zigbee2mqtt.io/devices/MS-108ZR.html[Moes MS-108ZR] angeschlossen. Neben der Steuerung über die Hausautomatisierung ist bei allen Rolläden auch eine Funk-Ferbedienung angelernt. Diese funktioniert unabhängig von der Hausautomatisierung.
+An den Fenstern sind elektrische Rolläden verbaut. An jedem Rolladen ist ein link:https://www.zigbee2mqtt.io/devices/MS-108ZR.html[Moes MS-108ZR] angeschlossen. Neben der Steuerung über die Hausautomatisierung ist bei allen Rolläden auch eine Funk-Ferbedienung angelernt. Diese funktioniert unabhängig von der Zentrale.
 
 == Wifi
 
@@ -58,7 +60,7 @@ Außerdem sind innen rund um die Glasscheibe der Haustür 144 link:https://www.a
 
 An der Zentralheizung ist ein link:https://1coderookie.github.io/BSB-LPB-LAN/[BSB-LAN] Adapter angeschlossen. Dieser ist über http://192.168.2.187/ erreichbar und hierüber können verschiedene Parameter der Heizung ausgelesen und konfiguriert werden.
 
-INFO: Bis jetzt funktioniert die Einbindung in die Hausautomatisierung noch nicht.
+INFO: Aktuell werden hier nur Daten ausgelesen und gespeichert. Es gibt noch keine Automatisierung z.B. der Nachtabsenkung.
 
 == Homematic IP
 
