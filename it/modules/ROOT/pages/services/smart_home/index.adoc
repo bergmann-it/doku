@@ -58,6 +58,36 @@ Außerdem sind innen rund um die Glasscheibe der Haustür 144 link:https://www.a
 
 === Heizung
 
+Der Primärenergiebedarf des Gebäudes wird durch einen Gast-Brennwertkessel im Keller abgedeckt. Diese bedient sowohl den einen Heizkreis als auch die Warmwasserbereitung. Letztere wird durch ein Solarthermie-Modul auf dem Dach unterstützt.
+
+Die Gesamtanlage ist ein link:https://polo.broetje.de/pdfreqdoku.php?fn=ti_solar_d_low.pdf&ty=DE[Solarsystem W 300-2W] der Firma Brötje. Diese ist aus den folgenden Komponenten aufgebaut:
+
+|===
+|Komponente |Modell |Bemerkung
+
+|Brennwertkessel
+|link:https://polo.broetje.de/select.php?cat=4&dev=286[EcoTherm Plus WGB 20 C]
+|
+
+|Solarsteuerung
+|link:https://polo.broetje.de/select.php?cat=11&dev=167[SOR S]
+|
+
+|Solarkollektoren
+|link:https://polo.broetje.de/select.php?cat=11&dev=165&sort=9[FK 26 W]
+|2 Stück
+
+|Solarpumpe
+|link:https://polo.broetje.de/select.php?cat=11&dev=167&sort=9[SPS 1.13]
+|
+
+|Solarspeicher
+|link:https://polo.broetje.de/select.php?cat=11&dev=63[SSB 300 ECO]
+|300 Liter
+
+
+|===
+
 An der Zentralheizung ist ein link:https://1coderookie.github.io/BSB-LPB-LAN/[BSB-LAN] Adapter angeschlossen. Dieser ist über http://192.168.2.187/ erreichbar und hierüber können verschiedene Parameter der Heizung ausgelesen und konfiguriert werden.
 
 INFO: Aktuell werden hier nur Daten ausgelesen und gespeichert. Es gibt noch keine Automatisierung z.B. der Nachtabsenkung.
