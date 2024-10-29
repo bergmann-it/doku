@@ -1,6 +1,6 @@
 name: allgemeines
 title: Allgemeines
-version: master
+version: ~
 display_version: WIP
 start_page: ROOT:index.adoc
 nav:

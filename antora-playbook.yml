@@ -31,3 +31,6 @@ asciidoc:
   extensions:
     - asciidoctor-kroki
     - asciidoctor-emoji
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
