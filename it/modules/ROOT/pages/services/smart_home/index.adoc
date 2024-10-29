@@ -102,4 +102,4 @@ Im Haus Verteilt befinden sich 10 link:https://www.amazon.de/dp/B01KPM3P68[Homem
 
 == Sprachsteuerung
 
-Um die Smart-Home Geräte auch per Sprache steuern zu können ist eine xref:services/alexa.adoc[Alexa] Anbindung entsprechend link:https://www.home-assistant.io/integrations/alexa.smart_home/[dieser Anleitung] konfiguriert. 
+Um die Smart-Home Geräte auch per Sprache steuern zu können ist eine Alexa Anbindung entsprechend link:https://www.home-assistant.io/integrations/alexa.smart_home/[dieser Anleitung] konfiguriert. 

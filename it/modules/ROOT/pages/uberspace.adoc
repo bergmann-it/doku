@@ -59,6 +59,6 @@ Folgende Dienste laufen auf dem uberspace:
 |link:https://genealogie.bergmann.click[Bergmann Genealogie]
 |link:https://www.humo-gen.com[HuMoGen]
 |+/var/www/virtual/cbergman/genealogie.bergmann.click/include/db_login.php+
-|xref:services/genealogie.adoc[genealogie]
+|
 
 |===
