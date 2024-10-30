@@ -13,6 +13,8 @@ Stufe 1 dient dazu Zugang zu den wichtigsten Zugangsdaten zu erlangen. Diese sin
 
 In diesem Vault existiert eine Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" mit den Details zu Stufe 2.
 
+Die Vorlage für diesen Ausdruck findet sich im cryptomator-Vault in Clemens OneDrive.
+
 == Stufe 2 - Zugangsdaten
 
 Mit Stufe 1 hat man Zugang zur sicheren Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" im 1password Vault "Clemens Emergency Recovery" erlangt. In diesem sind die wichtigsten Zugangsdaten beschrieben und es wird auf diese Seite verlinkt.
