@@ -1,4 +1,5 @@
 = Websites
+:page-aliases: it::services/websites.adoc
 
 Alle Websites werden in unserem xref:uberspace.adoc[Uberspace] verwaltet.
 

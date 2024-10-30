@@ -1,4 +1,5 @@
 = Telefon
+:page-aliases: it::services/telefon.adoc
 
 Mit unserem DSL Anschluss beziehen wir auch Telefonie von der Telekom. 
 

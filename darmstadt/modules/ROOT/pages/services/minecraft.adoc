@@ -1,4 +1,5 @@
 = Minecraft Server
+:page-aliases: it::services/minecraft.adoc
 
 Zum gemeinsamen Spielen von Minecraft haben wir einen entsprechenden Server.
 Aus Leistungsgründen läuft dieser nicht auf dem xref:homepi.adoc[Homepi] sondern auf Christianes Desktop Rechner.

@@ -1,4 +1,5 @@
 = Dokumentation
+:page-aliases: it::services/doku.adoc
 
 Die Dokumentation der Infrastruktur ist unter https://doku.bergmann.click zu finden. Diese Webseite wird im xref:services/websites.adoc[Uberspace] gehosted.
 

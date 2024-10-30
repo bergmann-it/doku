@@ -1,4 +1,5 @@
 = Zutritt
+:page-aliases: it::services/zutritt.adoc
 
 
 == Hoftor/Klingel

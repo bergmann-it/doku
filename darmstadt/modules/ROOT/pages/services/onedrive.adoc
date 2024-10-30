@@ -1,4 +1,5 @@
 = OneDrive
+:page-aliases: it::services/onedrive.adoc
 
 Die meisten unserer Daten werden in einem Microsoft OneDrive gespeichert. Durch die Office Linzenz hat jedes Familienmitglied 1 TB Speicher zur Verfügung. Die meisten Daten sind im Dokumente-Ordner von Tianes OneDrive.
 

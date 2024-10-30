@@ -1,4 +1,5 @@
 = Homepi
+:page-aliases: it::homepi.adoc
 
 Der Homepi ist der zentrale Server im lokalen Netzwerk. Er befindet sich im Keller auf dem "Netzwerkschrank". 
 

@@ -1,4 +1,5 @@
 = Monitoring
+:page-aliases: it::services/monitoring.adoc
 
 Zum Monitoring der Infrastruktur wird ein link:https://zabbix.org[Zabbix] Monitoring Server betrieben. Das Frontent ist über https://zabbix.bergmann.click erreichbar.
 

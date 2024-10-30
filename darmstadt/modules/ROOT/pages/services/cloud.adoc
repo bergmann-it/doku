@@ -1,4 +1,5 @@
 = Cloud
+:page-aliases: it::services/cloud.adoc
 
 Unter https://cloud.cbergmann.net auf dem xref:services/websites.adoc[Uberspace] läuft eine link:https://nextcloud.com[Nextcloud] Instanz.
 

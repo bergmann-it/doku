@@ -1,4 +1,5 @@
 = Smart Home Naming
+:page-aliases: it::services/smart_home/naming.adoc
 
 Um bei der Vielzahl der Devices und Entities im Home Assistant den Überblick nicht zu verlieren sind diese nach einem einheitlichen Schema benannt.
 

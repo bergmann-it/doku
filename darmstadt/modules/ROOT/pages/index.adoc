@@ -1,4 +1,5 @@
 = Übersicht
+:page-aliases: it::index.adoc
 
 Herzlich willkommen auf der Dokumentationsseite der Infrastruktur der Familie Bergmann.
 

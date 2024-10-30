@@ -1,4 +1,5 @@
 = WAN-Fallback
+:page-aliases: it::services/uplink/fallback.adoc
 
 == Einleitung
 

@@ -1,4 +1,5 @@
 = IPv6
+:page-aliases: it::ipv6.adoc
 
 == ULA
 

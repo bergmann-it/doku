@@ -1,4 +1,5 @@
 = Uberspace
+:page-aliases: it::uberspace.adoc
 
 Zum hosten von aufwendigeren oder global erreichbaren Diensten (z.B. Webhosting, E-Mail) verfügen wir über einen Account beim Hoster link:https://uberspace.de[uberspace].
 Aktuell handelt es sich um einen Uberspace der Version 7.

@@ -1,4 +1,5 @@
 = Smart Home
+:page-aliases: it::services/smart_home/index.adoc
 
 Zur Automatisierung und bequemen Steuerung der Funktionen unseres Hauses (z.B Licht, Heizung, etc.) sind einige der Komponenten "smart".
 Das bedeutet sie können elektronisch ferngesteuert werden.

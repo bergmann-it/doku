@@ -1,4 +1,5 @@
 = Remote Access
+:page-aliases: it::services/uplink/remote_access.adoc
 
 Diese Seite beschreibt wie man remote auf die Infrastruktur in Darmstadt zugreifen kann.
 

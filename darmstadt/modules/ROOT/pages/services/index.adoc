@@ -1,4 +1,5 @@
 Hier eine Liste aller aktuell betriebenen Services:
+:page-aliases: it::services/index.adoc
 
 NOTE: Für die meisten der Dienste und Geräte werden Zugangsdaten benötigt. Diese finden sich alle im link:https://bergmann.1password.eu[1Password]. Der xref:allgemeines::disaster_recovery/index.adoc[Disaster Recovery Plan] beschreibt wie man im Notfall darauf Zugriff bekommt.
 

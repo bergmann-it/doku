@@ -1,4 +1,5 @@
 = Netzwerk
+:page-aliases: it::network.adoc
 
 == Netzwerkübersicht
 Das Netzwerk in der Frankensteiner Str. 15 ist relativ einfach um den Mittelpunkt im Kellerflur aufgebaut:

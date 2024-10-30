@@ -1,4 +1,5 @@
 = WLAN
+:page-aliases: it::services/wifi.adoc
 
 == Hardware
 
