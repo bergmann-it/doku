@@ -7,7 +7,7 @@ content:
   - url: https://github.com/bergmann-it/doku
     branches: main
     start_paths: 
-      - it
+      - darmstadt
       - allgemeines
   - url: https://github.com/bergmann-it/homepi-cluster
     branches: main
