@@ -1,0 +1,6 @@
+#Access to some files only with password
+
+AuthType Basic
+AuthName "Darmstadt Dokumentation"
+require valid-user
+AuthUserFile /var/www/virtual/cbergman/dokupasswd
