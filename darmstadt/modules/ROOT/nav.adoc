@@ -1,6 +1,8 @@
-* xref:network.adoc[Netzwerk]
-** xref:homepi.adoc[Homepi]
-* xref:uberspace.adoc[Uberspace]
-* xref:services/index.adoc[Dienste]
+* xref:gebaeude/index.adoc[Gebäude]
+* xref:technik/index.adoc[Technik]
+* xref:it/index.adoc[IT]
+** xref:it/network.adoc[Netzwerk]
+*** xref:it/homepi.adoc[Homepi]
+** xref:it/uberspace.adoc[Uberspace]
+** xref:it/services/index.adoc[Dienste]
 include::partial$services.adoc[]
-

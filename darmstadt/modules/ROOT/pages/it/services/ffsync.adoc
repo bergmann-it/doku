@@ -1,0 +1,6 @@
+= Firefox Sync
+:page-aliases: it::services/ffsync.adoc
+
+Unter https://ffsync.cbergmann.net auf dem xref:it/services/websites.adoc[Uberspace] läuft ein Service zum sync von Firefox profilen.
+
+

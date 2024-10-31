@@ -3,11 +3,11 @@
 
 == Hardware
 
-Das Wifi Netzwerk besteht zu einen aus dem Unifi Controller welcher auf dem xref:homepi.adoc[Homepi] läuft, aus zwei link:https://www.ui.com/unifi/unifi-ap-ac-lite/[Unifi AP AC lite] (ap-eg, ap-keller) und einem link:https://techspecs.ui.com/unifi/wifi/u6-plus[Unifi U6+] (ap-og1).
+Das Wifi Netzwerk besteht zu einen aus dem Unifi Controller welcher auf dem xref:it/homepi.adoc[Homepi] läuft, aus zwei link:https://www.ui.com/unifi/unifi-ap-ac-lite/[Unifi AP AC lite] (ap-eg, ap-keller) und einem link:https://techspecs.ui.com/unifi/wifi/u6-plus[Unifi U6+] (ap-og1).
 
 == Controller
 
-Als Controller läuft auf dem xref:homepi.adoc[Homepi] die Unifi Controller Software. Diese ist unter https://unifi.bergmann.click/ zu erreichen. Dort kann man unter anderem folgendes einsehen/konfigurieren:
+Als Controller läuft auf dem xref:it/homepi.adoc[Homepi] die Unifi Controller Software. Diese ist unter https://unifi.bergmann.click/ zu erreichen. Dort kann man unter anderem folgendes einsehen/konfigurieren:
 
 * Konfigrierte WLANs
 * Accesspoints
@@ -20,7 +20,7 @@ Aktuell werden die folgenden Wifi Netzwerke zur Verfügung gestellt. Alle Netze 
 === bergmann
 
 Das "bergmann" Netzwerk ist das Hauptnetzwerk. Es ist per WPA2-Entperise gesichert. Man meldet sich also mit Benutzername und Passwort an. Jedes Fafmilienmitglied hat einen persönlichen Login. Außerdem gibt es einen Gast-Login welcher wie das Netzwerk "bergmann_unsicher" Netzwerk verhält und das VLAN 40 verwendet.
-Das WLAN authentifiziert sich gegen ein Freeradius-Server welcher auf dem xref:homepi.adoc[Homepi] läuft. Details siehe dort.
+Das WLAN authentifiziert sich gegen ein Freeradius-Server welcher auf dem xref:it/homepi.adoc[Homepi] läuft. Details siehe dort.
 
 === bergmann_unsicher
 

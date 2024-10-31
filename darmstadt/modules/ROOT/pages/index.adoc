@@ -1,13 +1,7 @@
-= Übersicht
-:page-aliases: it::index.adoc
+= Darmstadt
 
-Herzlich willkommen auf der Dokumentationsseite der Infrastruktur der Familie Bergmann.
+Diese Seiten befassen sich mit den Gebäuden in Darmstadt.
 
-Hier werde ich versuchen kurz dar zu legen wie unsere Infrastruktur funktioniert. Das soll hauptsächlich dazu dienen meinem zukünftigen Ich eine Gedankenstütze zu sein.
-
-Die Infrastruktur ist auf zwei Standorte aufgeteilt:
-
-* Das xref:network.adoc[Netzwerk] bei uns zuhause. 
-* Der Webspace xref:uberspace.adoc[Uberspace].
-
-Dort werden verschiedene xref:services/index.adoc[Dienste] zur Verfügung gestellt.
+* Infos zu den Gebäuden selbst finden sich unter xref:gebaeude/index.adoc[Gebäude]. Aus Datenschutzgründen ist dieser Teil Passwortgeschützt und von der Suche ausgenommen.
+* Infos zur Gebäudetechnik findet sich unter xref:technik/index.adoc[Gebäudetechnik].
+* Infos zur IT findet sich unter xref:it/index.adoc[IT].

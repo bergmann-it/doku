@@ -1,7 +1,7 @@
 = Websites
 :page-aliases: it::services/websites.adoc
 
-Alle Websites werden in unserem xref:uberspace.adoc[Uberspace] verwaltet.
+Alle Websites werden in unserem xref:it/uberspace.adoc[Uberspace] verwaltet.
 
 Allgemeine Details zur Konfiguration findet sich in der link:https://manual.uberspace.de/web-documentroot/[Uberspace Doku].
 

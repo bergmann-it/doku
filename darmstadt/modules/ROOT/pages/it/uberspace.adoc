@@ -25,37 +25,37 @@ Folgende Dienste laufen auf dem uberspace:
 |Mails
 |link:Uberspace Mail
 |+/home/cbergman/.mailfilter+
-|xref:services/mails.adoc[Mails]
+|xref:it/services/mails.adoc[Mails]
 
 |Websites
 |link:https://manual.uberspace.de/background-http-stack.html[Uberspace HTTP Stack]
 |+/var/www/virtual/cbergman+
-|xref:services/websites.adoc[Websites]
+|xref:it/services/websites.adoc[Websites]
 
 |link:https://zabbix.bergmann.click[Zabbix Server]
 |link:https://www.zabbix.org[Zabbix] Server
 |+/home/cbergman/opt/zabbix/etc/zabbix_server.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |Zabbix Agent
 |link:https://www.zabbix.org[Zabbix] Agent
 |+/home/cbergman/opt/zabbix/etc/zabbix_agent2.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |link:https://doku.bergmann.click[Bergmann Dokumentation]
 |link:https://antora.org/[Antora]
 |+/home/cbergman/doku+
-|xref:services/doku.adoc[Doku]
+|xref:it/services/doku.adoc[Doku]
 
 |link:https://cloud.cbergmann.net[cbergmann Cloud]
 |link:https://doc.owncloud.com[owncloud]
 |+/var/www/virtual/cbergman/cloud.cbergmann.net/config/config.php+
-|xref:services/cloud.adoc[Cloud]
+|xref:it/services/cloud.adoc[Cloud]
 
 |Firefox Sync
 |link:https://github.com/mozilla-services/syncserver[Mozilla syncserver]
 |+/home/cbergman/syncserver/syncserver.ini+
-|xref:services/ffsync.adoc[ffsync]
+|xref:it/services/ffsync.adoc[ffsync]
 
 |link:https://genealogie.bergmann.click[Bergmann Genealogie]
 |link:https://www.humo-gen.com[HuMoGen]

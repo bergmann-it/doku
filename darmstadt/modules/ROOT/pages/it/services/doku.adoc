@@ -1,7 +1,7 @@
 = Dokumentation
 :page-aliases: it::services/doku.adoc
 
-Die Dokumentation der Infrastruktur ist unter https://doku.bergmann.click zu finden. Diese Webseite wird im xref:services/websites.adoc[Uberspace] gehosted.
+Die Dokumentation der Infrastruktur ist unter https://doku.bergmann.click zu finden. Diese Webseite wird im xref:it/services/websites.adoc[Uberspace] gehosted.
 
 Sie ist in link:https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc] geschrieben und wird mit dem Generator link:https://antora.org/[Antora] erstellt.
 

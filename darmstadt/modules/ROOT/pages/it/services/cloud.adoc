@@ -1,6 +1,6 @@
 = Cloud
 :page-aliases: it::services/cloud.adoc
 
-Unter https://cloud.cbergmann.net auf dem xref:services/websites.adoc[Uberspace] läuft eine link:https://nextcloud.com[Nextcloud] Instanz.
+Unter https://cloud.cbergmann.net auf dem xref:it/services/websites.adoc[Uberspace] läuft eine link:https://nextcloud.com[Nextcloud] Instanz.
 
 Diese wird hauptsächlich von Clemens zur Synchronisation von Kontakten (per CardDAV) und Kalendereintägen (per CalDAV) verwendet.

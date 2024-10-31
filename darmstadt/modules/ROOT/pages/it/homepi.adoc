@@ -7,7 +7,7 @@ Der Homepi ist der zentrale Server im lokalen Netzwerk. Er befindet sich im Kell
 
 Beim Homepi handelt es sich aktuell um einen link:https://www.raspberrypi.org/products/raspberry-pi-4-model-b/[Raspberry Pi 4 B] mit 8 GB RAM.
 Zur besseren Ausfallsicherheit ist der Homepi mit einer externen SSD als Festplatte ausgestattet. Das ist schneller und zuverlässiger als eine SD-Karte.
-Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu auf der Seite xref:services/smart_home/index.adoc[Smart Home].
+Außerdem sind direkt an den Homepi noch Schnittstellen für verschiedene Smart Home Systeme angeschlossen. Details dazu auf der Seite xref:it/services/smart_home/index.adoc[Smart Home].
 
 == USB Geräte
 
@@ -61,37 +61,37 @@ Folgende Dienste laufen auf dem Homepi:
 |link:https://hass.bergmann.click[Smart Home Zentrale]
 |link:https://www.home-assistant.io/[Home Assistant]
 |+/home/homeassistant/.homeassistant/configuration.yaml+
-|xref:services/smart_home/index.adoc[Smart Home]
+|xref:it/services/smart_home/index.adoc[Smart Home]
 
 |Zabbix Proxy
 |link:https://www.zabbix.org[Zabbix] Proxy
 |+/etc/zabbix/zabbix_proxy.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |Zabbix Agent
 |link:https://www.zabbix.org[Zabbix] Agent
 |+/etc/zabbix/zabbix_agent2.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |Unifi Proxy for Monitoring
 |link:https://github.com/zbx-sadman/unifi_proxy[Unifi Proxy]
 |+/etc/unifi_proxy/unifi_proxy.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |Syslog Daemon
 |link:https://www.rsyslog.com/doc[rsyslogd]
 |+/etc/rsyslog.conf+
-|xref:services/monitoring.adoc[Monitoring]
+|xref:it/services/monitoring.adoc[Monitoring]
 
 |Radius Server für Wifi
 |link:https://freeradius.org[freeRADIUS]
 |+/etc/freeradius/3.0/radiusd.conf+
-|xref:services/wifi.adoc[Wifi]
+|xref:it/services/wifi.adoc[Wifi]
 
 |link:https://unifi.bergmann.click[Wifi Controller]
 |link:https://www.ui.com/software/[Unifi Controller]
 |+/var/lib/unifi+
-|xref:services/wifi.adoc[Wifi]
+|xref:it/services/wifi.adoc[Wifi]
 
 |Kubernetes Node
 |link:https://k3s.io/[k3s]

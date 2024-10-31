@@ -25,7 +25,7 @@ image::network.drawio.svg[]
 
 Der Uplink ist eine 250 Mbit/s DSL Leitung von der link:https://www.telekom.de/mein-kundencenter[Telekom].
 
-Es gibt verschiedene Wege von außen auf die Infrastruktur zuzugreifen. Details dazu auf der Seite xref:services/uplink/remote_access.adoc[Remote access].
+Es gibt verschiedene Wege von außen auf die Infrastruktur zuzugreifen. Details dazu auf der Seite xref:it/services/uplink/remote_access.adoc[Remote access].
 
 == Subnezte
 
@@ -39,20 +39,20 @@ Es gibt die folgenden Subnetze:
 |3       |40     |Gäste-Netz                                |192.168.3.0/24 |fd6b:b175:9ccf:c3::/64
 |4       |41     |Kabelgebundenes Gästenetz                 |192.168.4.0/24 |fd6b:b175:9ccf:c4::/64
 |5       |N/A    |OpenVPN                                   |192.168.5.0/24 |fd6b:b175:9ccf:c5::/64
-|6       |50     |xref:services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24 |
+|6       |50     |xref:it/services/uplink/fallback.adoc[WAN-Fallback] |192.168.6.0/24 |
 |7       |N/A    |Modem-Netzwerk                            |192.168.7.0/24 |fd6b:b175:9ccf:c7::/64
 |8       |80     |xref:k8s::index.adoc[k8s Cluster]       |192.168.8.0/24 |fd6b:b175:9ccf:c8::/64
 |===
 
-Details zum IPv6 Setup finden sich auf der Seite xref:ipv6.adoc[IPv6].
+Details zum IPv6 Setup finden sich auf der Seite xref:it/ipv6.adoc[IPv6].
 
 == WLAN
 
-Details zum wlan finden sich auf einer extra Seite: xref:services/wifi.adoc[Wifi]
+Details zum wlan finden sich auf einer extra Seite: xref:it/services/wifi.adoc[Wifi]
 
 == DNS
 
-Details zum DNS setup findet sich auf der Seite xref:services/dns.adoc[DNS]
+Details zum DNS setup findet sich auf der Seite xref:it/services/dns.adoc[DNS]
 
 == Hosts
 
@@ -69,8 +69,8 @@ Unten die wichtigsten Hosts im Überblick:
 |IP für Broardcast MAC für WOL             |192.168.1.3       |
 |DHCP-Bereich                              |192.168.1.16-191  |
 |Kerninfrastruktur                         |192.168.1.241-254 |/28
-|AP EG                                     |192.168.1.241     |xref:services/wifi.adoc[Wifi]
-|AP OG1                                    |192.168.1.242     |xref:services/wifi.adoc[Wifi]
+|AP EG                                     |192.168.1.241     |xref:it/services/wifi.adoc[Wifi]
+|AP OG1                                    |192.168.1.242     |xref:it/services/wifi.adoc[Wifi]
 |Switch sw-01        |link:http://192.168.1.245/[192.168.1.245]     |
 |Switch sw-02        |link:http://192.168.1.246/[192.168.1.246]     |
 |=== 
@@ -84,9 +84,9 @@ Unten die wichtigsten Hosts im Überblick:
 |Router |link:https://gw-1.bergmann.click/[192.168.2.1]       |
 |DHCP-Bereich                              |192.168.2.129-190  |
 |Kerninfrastruktur                         |192.168.2.241-254 |/28
-|ATA Adapter  |link:https://192.168.2.243/[192.168.2.243]     |xref:services/telefon.adoc[Telefon]
-|DECT-Basis  |link:https://192.168.2.242/[192.168.2.242]     |xref:services/telefon.adoc[Telefon]
-|Klingel  |link:https://192.168.2.241/[192.168.2.241]     |xref:services/zutritt.adoc#_hoftorklingel[Klingel]
+|ATA Adapter  |link:https://192.168.2.243/[192.168.2.243]     |xref:it/services/telefon.adoc[Telefon]
+|DECT-Basis  |link:https://192.168.2.242/[192.168.2.242]     |xref:it/services/telefon.adoc[Telefon]
+|Klingel  |link:https://192.168.2.241/[192.168.2.241]     |xref:it/services/zutritt.adoc#_hoftorklingel[Klingel]
 |=== 
 
 
@@ -95,7 +95,7 @@ Unten die wichtigsten Hosts im Überblick:
 |===
 |Host                                      |IP                |Dokumentation
 
-|xref:services/uplink/fallback.adoc[WAN-Fallback-Router]                       |192.168.6.1       |
+|xref:it/services/uplink/fallback.adoc[WAN-Fallback-Router]                       |192.168.6.1       |
 |Router                                    |192.168.6.2       |
 |=== 
 
@@ -117,7 +117,7 @@ Unten die wichtigsten Hosts im Überblick:
 |Router |link:https://gw-1.bergmann.click/[192.168.8.1]       |/32    |
 |IP für Broardcast MAC für WOL |192.168.8.3      |    |
 |Master Nodes                              |192.168.8.16-18   |/28    |
-|Homepi                                    |192.168.8.16     |/32 |xref:homepi.adoc[Homepi]
+|Homepi                                    |192.168.8.16     |/32 |xref:it/homepi.adoc[Homepi]
 |DHCP Bereich für worker nodes             |192.168.8.19-31   |/28    |
 |MetalLB                                   |192.168.8.32-63   |/27    |
 |Reserviert                                |192.168.8.241-254 |/28    |

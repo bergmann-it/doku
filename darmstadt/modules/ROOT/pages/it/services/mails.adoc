@@ -1,7 +1,7 @@
 = Mails
 :page-aliases: it::services/mails.adoc
 
-Alle Mails werden in unserem xref:uberspace.adoc[Uberspace] verwaltet.
+Alle Mails werden in unserem xref:it/uberspace.adoc[Uberspace] verwaltet.
 
 Allgemeine Details zur Konfiguration findet sich in der link:https://manual.uberspace.de/mail-access/[Uberspace Doku].
 
@@ -11,7 +11,7 @@ Die Schnittstelle zum Uberspace-Mailsystem ist die Datei `/home/cbergman/.qmail-
 
 In der Datei `/home/cbergman/.mailfilter` wird über Regeln festgelegt, welche Mail in welches Postfach zugestellt werden soll.
 
-Details zu Domains unter xref:services/dns.adoc[DNS].
+Details zu Domains unter xref:it/services/dns.adoc[DNS].
 
 == Catchall Domains
 

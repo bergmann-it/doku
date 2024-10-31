@@ -18,6 +18,6 @@ Unser Internet-Uplink zuhause hat eine dynamische IP-Adresse. Alles dort wird un
 Sollten neue Domains oder Subdomains eingerichtet werden müssen kann wie folgt vorgegangen werden:
 
  . Evtl. Registrierung der Domain bei INWX
- . Wenn xref:services/mails.adoc[Mail] gewünscht werden registrierung im Uberspace per `uberspace mail domain add`.
- . Wenn eine xref:services/websites.adoc[Website] gewünscht wird registrierung im Uberspace per `uberspace web domain add`.
+ . Wenn xref:it/services/mails.adoc[Mail] gewünscht werden registrierung im Uberspace per `uberspace mail domain add`.
+ . Wenn eine xref:it/services/websites.adoc[Website] gewünscht wird registrierung im Uberspace per `uberspace web domain add`.
  . Die vorigen Commands geben jeweils die nötigen Einträge für die link:https://www.inwx.de/de/nameserver2[INWX Domainserver] aus.

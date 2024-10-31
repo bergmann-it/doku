@@ -31,4 +31,4 @@ Im Keller befindet sich ein ATA Adapter. Dieser verbindet sich per SIP mit der T
 
 === Klingel
 
-Die Klingel ist auch ein SIP-Telefon. Details dazu unter xref:services/zutritt.adoc#_hoftorklingel[Zutritt].
+Die Klingel ist auch ein SIP-Telefon. Details dazu unter xref:it/services/zutritt.adoc#_hoftorklingel[Zutritt].

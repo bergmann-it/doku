@@ -2,7 +2,7 @@
 :page-aliases: it::services/minecraft.adoc
 
 Zum gemeinsamen Spielen von Minecraft haben wir einen entsprechenden Server.
-Aus Leistungsgründen läuft dieser nicht auf dem xref:homepi.adoc[Homepi] sondern auf Christianes Desktop Rechner.
+Aus Leistungsgründen läuft dieser nicht auf dem xref:it/homepi.adoc[Homepi] sondern auf Christianes Desktop Rechner.
 
 Alle Dateien des Servers sind unter +c:\minecraft_mcss+ zu finden.
 Der Server ist sowohl aus dem internet Netz als auch aus dem Internet unter +minecraft.bergmann.click+ erreichbar.
