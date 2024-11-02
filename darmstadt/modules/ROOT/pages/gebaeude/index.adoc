@@ -45,9 +45,9 @@ Das Grundstück wurde am 15.4.2003 in 4 Grundbuchblätter aufgeteilt:
 
 Auf der Seite xref:gebaeude/historie.adoc[Historie] wird die Historie der Besitzverhältnisse diese Grundbuchblätter dargestellt. 
 
-== Haupthaus
+== Vorderhaus
 
-An der Straßenseite des Grundstücks wurde ca. 1900 ein Wohnhaus mit Keller, Erdgeschoss, einem Obergeschoss und einem ausgebauten Dachgeschoss.
+An der Straßenseite des Grundstücks wurde ca. 1900 ein Wohnhaus mit Keller, Erdgeschoss, einem Obergeschoss und einem ausgebauten Dachgeschoss errichtet.
 
 Insgesamt hat das Haus ca. 118 m² Wohnfläche und ca. 40² Nutzfläche.
 
