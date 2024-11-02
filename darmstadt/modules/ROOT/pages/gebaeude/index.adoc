@@ -72,7 +72,7 @@ Vor 2010::
  * Dämmung mit ca. 20 cm Mineralwolle der zwei Außenwände zum Hof.
  * Einbau einer Lüftungsanlage.
  * Austausch aller Fenster und Haustür.
- * Einbau einer neuen xref:it/zutritt.adoc[Klingelanlage].
+ * Einbau einer neuen xref:it/services/zutritt.adoc[Klingelanlage].
  * Abriss des Schaukastens im Hof und Erstellung einer neuen Wand mit Briefkastenanlage.
 
 == 1. Hinterhaus (Mietobjekt)

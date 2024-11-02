@@ -3,28 +3,23 @@
 Die Historie der  Eigentumsverhältnisse ist uns wie folgt bekannt.
 
 Vor 15.04.2003::
-
-Grundbuch Blatt 7624
-Besitz von Herr Karl Klöppinger und Frau Margarete Klöppinger geb. Leißler
-Bebaut mit 3 Häusern
+Grundbuch Blatt 7624. Besitz von Herr Karl Klöppinger und Frau Margarete Klöppinger geb. Leißler. Bebaut mit 3 Häusern
 
 15.04.2003::
 (Eintragung im Grundbuch am 05.08.2003)
 
 1. Festellung von Tod von Herrn Karl Klöppinger
 2. Übertragung des Grundstückes von Frau Margarete Klöppinger auf Herrn Karlheinz Klöppinger
-3. Aufteilung des Grundstück (1.000 Teile) wie unter xref:gebeude/index.adoc[Gebäude] beschrieben. Der Aufteilungsvertrag findet sich im Onedrive unter `Haus\Aufteilung`.
+3. Aufteilung des Grundstück (1.000 Teile) wie unter xref:gebaeude/index.adoc[Gebäude] beschrieben. Der Aufteilungsvertrag findet sich im Onedrive unter `Haus\Aufteilung`.
 4. Übertrag von Grundbuch Blatt 7624 auf Blätter 13874-13877
 5. Übergabe von Blättern 13874+13875 von Herr Karlheinz Klöppinger an Frau Edith Klöppinger geb. Raddatz
 
 09.05.2003::
-
 Anpassung der Aufteilung des gemeinsamen Kellerraums. 
 Auch dazu findet sich ein Aufteilungsvertrag im Onedrive unter `Haus\Aufteilung`.
 
 Zu unbekanntem Zeitpunkt::
-
-1. Verkauf von Blatt 13877 von Herrn Klarheinz Klöppinger an Frau Doris Schüler ?
+Verkauf von Blatt 13877 von Herrn Klarheinz Klöppinger an Frau Doris Schüler ?
 (Dokument dazu liegt nicht vor.)
 
 19.01.2010::
@@ -40,11 +35,7 @@ Zu unbekanntem Zeitpunkt::
 (Insgesammt 322,35648 qm Grund + 2 Häuser zum Preis von 230.000 €)
 
 04.02.2010::
-3. Eintragung einer Grundschuld
-  ohne Brief
-  zu 75.000 € (12 % Zinsen)
-  für Stadt- und Kreis-Sparkasse Darmstadt
-  auf Blätter 13874-13876
+Eintragung einer Grundschuld ohne Brief zu 75.000 € (12 % Zinsen) für Stadt- und Kreis-Sparkasse Darmstadt auf Blätter 13874-13876
 
 25.10.2016::
 (Eintragung im Grundbuch am 05.12.2016)

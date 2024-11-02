@@ -7,5 +7,5 @@ Allgemeine Details zur Konfiguration findet sich in der link:https://manual.uber
 
 Unter `/var/www/virtual/cbergman` findet sich für jede Subdomain ein Unterverzeichniss. 
 
-Details zu Domains unter xref:services/dns.adoc[DNS].
+Details zu Domains unter xref:it/services/dns.adoc[DNS].
 
