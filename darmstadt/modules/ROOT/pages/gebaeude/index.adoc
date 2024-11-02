@@ -1,5 +1,101 @@
 = Gebäude Darmstadt
 
-Diese Seiten beschäftigen sich mit den Gebäuden in Darmstadt.
+Diese Seiten beschäftigen sich mit den Gebäuden in der Frankensteiner Str. 15 in Darmstadt.
 
+Weitere Infos und Dokumente finden sich im Onedrive unter `Haus`.
 
+== Grundstück
+
+Die Gebäude stehen auf einem Grundstück mit insgesamt 508 m².
+
+Es handelt dabei um Flurstück 564
+in der Flur 10 der Gemarkung Eberstadt.
+
+Das Grundstück wurde am 15.4.2003 in 4 Grundbuchblätter aufgeteilt:
+
+|===
+|Nr. |Anteil{empty}footnote:[von 1000] |m² |Blatt |Beschreibung
+
+|1
+|211,74
+|107,56392 ²
+|13874
+|Erdgeschoss + 1 Kellerraum im Vorderhaus
+
+|2
+|189,58
+|96,30664 ²
+|13875
+|Obergeschoss + Spitzboden + 1 Kellerraum im Vorderhaus
+
+|3
+|233,24
+|118,48592 ²
+|13876
+|Vorderes Hinterhaus + Teil eines Kellerraums im Vorherhaus
+
+|4
+|365,44
+|185,64352 ²
+|13877
+|Hinteres Hinterhaus (aktuell Schüler) + Teil eines Kellerraums im Vorherhaus
+
+|===
+
+Auf der Seite xref:gebaeude/historie.adoc[Historie] wird die Historie der Besitzverhältnisse diese Grundbuchblätter dargestellt. 
+
+== Haupthaus
+
+An der Straßenseite des Grundstücks wurde ca. 1900 ein Wohnhaus mit Keller, Erdgeschoss, einem Obergeschoss und einem ausgebauten Dachgeschoss.
+
+Insgesamt hat das Haus ca. 118 m² Wohnfläche und ca. 40² Nutzfläche.
+
+Wir verfügen nicht mehr über die ursprünglichen Baupläne sondern nur noch über eine  Wohnflächenberechnung  von 1995. Daher wurde privat ein Plan mit der Webseite https://floorplancreator.net erstellt. Die Zugangsdaten befinden sich im 1Passwort. Dort können die Pläne eingesehen und bearbeitet werden.
+
+=== Reonvierungen
+
+Seit Erstellung der Wohnflächenberechnung wurden folgende größere Renovierungen durchgeführt:
+
+Vor 2010:: 
+ * Ausbau des Dachgeschoss zum Wohnraum mit Dachterrasse.
+ * Erstellung von Balkon und Küche im EG.
+2010:: 
+ * Abtrennung von Garderobe vom Bad im EG.
+ * Komplett neu erstelltes Bad mit Dusche im EG.
+ * Komplett neu erstelltes Bad mit Dusche und Badewanne im 1. OG.
+ * Austausch der xref:technik/heizung.adoc[Heizungsanlage].
+2011:: Komplett neue Küche incl. Verputz, Boden und Einbauküche im EG.
+2020:: Abschleifen und restaurieren des Dielenbodens im EG.
+2022-2023::
+ * Austausch aller Fenster und Haustür.
+ * Dämmung mit ca. 20 cm Mineralwolle der zwei Außenwände zum Hof.
+ * Einbau einer Lüftungsanlage.
+ * Austausch aller Fenster und Haustür.
+ * Einbau einer neuen xref:it/zutritt.adoc[Klingelanlage].
+ * Abriss des Schaukastens im Hof und Erstellung einer neuen Wand mit Briefkastenanlage.
+
+== 1. Hinterhaus (Mietobjekt)
+
+Das vordere Hinterhaus wurde auch ca. 1900 erbaut. Es wurde früher als Verkaufsraum eines Fernsehgeschäfts genutzt und ist jetzt zum Wohngebäude ausgebaut.
+
+Das Gebäude hat keinen Keller, ein Erdgeschoss und ein ausgebautes Dachgeschoss. Insgesamt verfügt es über ca. 50 m² Wohnfläche. Die Mietpartei kann einen Teil eines Kellerraums im Haupthaus (ca. 5 m²) als Lagefläche nutzen.
+
+Die Situation zu Bauplänen ist wie beim Haupthaus.
+
+=== Renovierungen
+
+Seit Erstellung der Wohnflächenberechnung wurden folgende größere Renovierungen durchgeführt:
+
+2010::
+ * Austausch eines Teils der Fenster.
+2012:: 
+ * Austausch der restlichen Fenster.
+ * Komplett neue Küche
+ * Komplett neues Bad
+ * Neues Laminat im EG und OG
+2024::
+ * Neuer Fliesenboden im OG
+
+== 2. Hinterhaus (Schüler)
+
+Das 2. Hinterhaus ist ein getrenntes Grundbuchblatt und befindet sich nicht in unserem Besitzt.

@@ -1,0 +1,65 @@
+= Eigentumshistorie Darmstadt
+
+Die Historie der  Eigentumsverhältnisse ist uns wie folgt bekannt.
+
+Vor 15.04.2003::
+
+Grundbuch Blatt 7624
+Besitz von Herr Karl Klöppinger und Frau Margarete Klöppinger geb. Leißler
+Bebaut mit 3 Häusern
+
+15.04.2003::
+(Eintragung im Grundbuch am 05.08.2003)
+
+1. Festellung von Tod von Herrn Karl Klöppinger
+2. Übertragung des Grundstückes von Frau Margarete Klöppinger auf Herrn Karlheinz Klöppinger
+3. Aufteilung des Grundstück (1.000 Teile) wie unter xref:gebeude/index.adoc[Gebäude] beschrieben. Der Aufteilungsvertrag findet sich im Onedrive unter `Haus\Aufteilung`.
+4. Übertrag von Grundbuch Blatt 7624 auf Blätter 13874-13877
+5. Übergabe von Blättern 13874+13875 von Herr Karlheinz Klöppinger an Frau Edith Klöppinger geb. Raddatz
+
+09.05.2003::
+
+Anpassung der Aufteilung des gemeinsamen Kellerraums. 
+Auch dazu findet sich ein Aufteilungsvertrag im Onedrive unter `Haus\Aufteilung`.
+
+Zu unbekanntem Zeitpunkt::
+
+1. Verkauf von Blatt 13877 von Herrn Klarheinz Klöppinger an Frau Doris Schüler ?
+(Dokument dazu liegt nicht vor.)
+
+19.01.2010::
+(Eintragung im Grundbuch am 27.04.2010)
+
+1. Verkauf von Blättern 13874 (70.000 €) und 13875 (100.000 €) von Frau Edith Klöppinger an 
+  1/2 Frau Christiane Thurner geb. Kullmann
+  1/2 Herr Joachim Thurner
+2. Verkauf von Blatt 13876 (60.000 €) von Herrn Karlheinz Klöppinger an
+  1/2 Frau Christiane Thurner geb. Kullmann
+  1/2 Herr Joachim Thurner
+
+(Insgesammt 322,35648 qm Grund + 2 Häuser zum Preis von 230.000 €)
+
+04.02.2010::
+3. Eintragung einer Grundschuld
+  ohne Brief
+  zu 75.000 € (12 % Zinsen)
+  für Stadt- und Kreis-Sparkasse Darmstadt
+  auf Blätter 13874-13876
+
+25.10.2016::
+(Eintragung im Grundbuch am 05.12.2016)
+
+1. Verkauf von Blättern 13874 und 13875 (zusammen 160.000 €) von je 1/2 Joachim Thurner und Christiane Thurner an Bernhard Kullmann
+2. Verkauf von Blatt 13876 (70.000 €) von je 1/2 Joachim Thurner und Christiane Thurner an Beate Kullmann
+
+03.06.2017::
+Christiane Thurner heiratet Clemens Bergmann und nimmt den Namen Christiane Bergmann an.
+
+08.09.2020::
+Bernhard Kullmann verstirbt ohne besondere Regelung der Erbfolge.
+Erbengemeinschaft: 1/2 Beate Kullmann; je 1/6 Mirjam Kullmann, Andreas Kullmann und Christiane Bergmann.
+
+28.04.2022::
+(Eintragung im Grundbuch am 29.06.2022)
+1. Übertragung von Blättern 13874 und 13875 (zusammen 252.000 €) von Erbengemeinschaft Herrn Bernhard Kullmann an Christiane Bergmann geb. Kullmann
+2. Übertragung von Blatt 13876 (123.000 €) von Beate Kullmann an Christiane Bergmann geb. Kullmann
