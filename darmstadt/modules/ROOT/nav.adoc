@@ -1,5 +1,7 @@
 * xref:gebaeude/index.adoc[Gebäude]
+** xref:gebaeude/historie.adoc[Historie]
 * xref:technik/index.adoc[Technik]
+** xref:technik/heizung.adoc[Heizung]
 * xref:it/index.adoc[IT]
 ** xref:it/network.adoc[Netzwerk]
 *** xref:it/homepi.adoc[Homepi]
