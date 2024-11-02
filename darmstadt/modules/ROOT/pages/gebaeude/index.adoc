@@ -13,30 +13,31 @@ in der Flur 10 der Gemarkung Eberstadt.
 
 Das Grundstück wurde am 15.4.2003 in 4 Grundbuchblätter aufgeteilt:
 
+[cols="1,2,3,2,10"]
 |===
-|Nr. |Anteil{empty}footnote:[von 1000] |m² |Blatt |Beschreibung
+|Nr. |Anteil{empty}footnote:[von 1000] |Fläche |Blatt |Beschreibung
 
 |1
 |211,74
-|107,56392 ²
+|107,56392 m²
 |13874
 |Erdgeschoss + 1 Kellerraum im Vorderhaus
 
 |2
 |189,58
-|96,30664 ²
+|96,30664 m²
 |13875
 |Obergeschoss + Spitzboden + 1 Kellerraum im Vorderhaus
 
 |3
 |233,24
-|118,48592 ²
+|118,48592 m²
 |13876
 |Vorderes Hinterhaus + Teil eines Kellerraums im Vorherhaus
 
 |4
 |365,44
-|185,64352 ²
+|185,64352 m²
 |13877
 |Hinteres Hinterhaus (aktuell Schüler) + Teil eines Kellerraums im Vorherhaus
 
