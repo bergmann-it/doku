@@ -11,7 +11,7 @@ Die Gesamtanlage ist ein link:https://polo.broetje.de/pdfreqdoku.php?fn=ti_solar
 
 |Brennwertkessel
 |link:https://polo.broetje.de/select.php?cat=4&dev=286[EcoTherm Plus WGB 20 C]
-|
+|Zentraleinheit https://docs.bsb-lan.de/de/supported_heating_systems.html#LMU74[LMU 74]
 
 |Solarsteuerung
 |link:https://polo.broetje.de/select.php?cat=11&dev=167[SOR S]
