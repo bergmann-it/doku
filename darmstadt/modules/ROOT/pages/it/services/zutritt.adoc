@@ -16,7 +16,7 @@ Außerdem ist an der Klingel über PIN oder NFC-Tag ein Zugang möglich.
 
 == Hautür
 
-Die Haustür ist mit einem link:https://www.inosmart.info/de/[Inosmart Türöffnungssystem BT 610] ausgestattet. Damit ist eine Öffnung der Haustür sowohl über PIN-Code als auch über Fingerabdruck möglich. An die Haustür ist ein link:https://shelly-api-docs.shelly.cloud/gen2/Devices/ShellyPlus1/[Shelly Plus 1] angeschlossen. Damit kann die Hausautomatisierung sowohl erkennen wenn die Tür authorisiert geöffnet wurde als auch die Tür entriegeln. 
+Die Haustür ist mit einem link:https://www.inosmart.info/de/[Inosmart Türöffnungssystem BT 610] ausgestattet. Damit ist eine Öffnung der Haustür sowohl über PIN-Code als auch über Fingerabdruck möglich. An die Haustür ist ein link:https://shelly-api-docs.shelly.cloud/gen2/Devices/ShellyPlus1/[Shelly Plus 1] angeschlossen. Damit kann die Hausautomatisierung sowohl erkennen wenn die Tür authorisiert geöffnet wurde als auch die Tür entriegeln. In der Tür ist das link:https://www.siegenia.com/api/service/downloads/file/202459_de[GENIUS 2.2 PANIK] Schloss von Siegenia verbaut. Speziell ist das einflüglige (CB) Schloss in Funktion E (Wechselfunktion) mit Zusatzkästen GEP EP 9600 verbaut.
 
 == Schlüsselverwaltung
 
