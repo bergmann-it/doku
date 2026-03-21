@@ -3,7 +3,7 @@
 
 == Domainregistrierung
 
-Unsere Domains sind alle bei link:https://www.inwx.de/[INWX] registriert. Dort gibt es einen extra Account für die Domain des link:https://asylkreis-darmstadt.de/[KOKAS Darmstadt]. Alle anderen Domains können unter dem Haupt-Account verwaltet werden. Credentails finden sich im link:https://bergmann.1password.eu[1password].
+Unsere Domains sind alle bei link:https://www.inwx.de/[INWX] registriert. Dort gibt es einen extra Account für die Domain des link:https://asylkreis-darmstadt.de/[KOKAS Darmstadt]. Alle anderen Domains können unter dem Haupt-Account verwaltet werden. Credentails finden sich im link:https://vault.bergmann.click[vaultwarden].
 
 == Nameserver
 

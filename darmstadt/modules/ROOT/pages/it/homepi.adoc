@@ -38,12 +38,12 @@ Der Raspberry bekommt vom Netzteil 3000 mA. Selbst braucht er maximal 1500 mA. B
 
 Sollte der Homepi nicht mehr reagieren kann man die Stromversorgung über die vorgeschaltete Netzwerksteckdose trennen und neu verbinden.
 Dafür muss der Befehl `curl http://<ip>/switch/relay/turn_off -X POST` gefolgt von `curl http://<ip>/switch/relay/turn_on -X POST` auf z.B. dem Router ausgeführt werden.
-Die IP der Steckdose findet sich im 1password unter "powerplug01".
+Die IP der Steckdose findet sich im vaultwarden unter "powerplug01".
 
 == Netzwerk
 
 Der Homepi ist mit einem Kabel mit dem Router verbunden.
-Per SSH ist der Host sowohl von innerhalb des Netztes als auch aus dem Internet unter dem Host +homepi.bergmann.click+ zu erreichen. Die Zugangsdaten befinden sich im 1password. 
+Per SSH ist der Host sowohl von innerhalb des Netztes als auch aus dem Internet unter dem Host +homepi.bergmann.click+ zu erreichen. Die Zugangsdaten befinden sich im vaultwarden. 
 
 == Software
 

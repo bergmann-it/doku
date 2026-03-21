@@ -6,7 +6,7 @@ Zum allgemeinen Verständniss der Infrastruktur dient diese gesammte Dokumentati
 
 == Stufe 1 - Bootstrap
 
-Stufe 1 dient dazu Zugang zu den wichtigsten Zugangsdaten zu erlangen. Diese sind im link:https://bergmann.1password.eu[1password] gespeichert. Um dazu zugang zu gelangen gibt es einen extra dafür angelegten Gast-Benutzer mit Zugang zu einem speziellen Vault "Clemens Emergency Recovery". Die Zugangsdaten zu diesem Benutzer sind ausgedruckt in einem versiegelten Umschlag an zwei Stellen hinterlegt:
+Stufe 1 dient dazu Zugang zu den wichtigsten Zugangsdaten zu erlangen. Diese sind im link:https://vault.bergmann.click[vaultwarden] gespeichert. Um dazu zugang zu gelangen gibt es einen extra dafür angelegten Benutzer mit Zugang zu einem speziellen Vault "Clemens Emergency Recovery". Die Zugangsdaten zu diesem Benutzer sind ausgedruckt in einem versiegelten Umschlag an zwei Stellen hinterlegt:
 
 * Bei meinen Eltern
 * (xref:katastrophen/inhalt_dokumentenmappe.adoc["Notfallmappe"]) in unserem Büro
@@ -17,7 +17,7 @@ Die Vorlage für diesen Ausdruck findet sich im cryptomator-Vault in Clemens One
 
 == Stufe 2 - Zugangsdaten
 
-Mit Stufe 1 hat man Zugang zur sicheren Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" im 1password Vault "Clemens Emergency Recovery" erlangt. In diesem sind die wichtigsten Zugangsdaten beschrieben und es wird auf diese Seite verlinkt.
+Mit Stufe 1 hat man Zugang zur sicheren Notiz "Clemens Bergmann Emergency Recovery Plan - Stufe 2" in der Vaultwarden Sammlung "Clemens Emergency Recovery" erlangt. In diesem sind die wichtigsten Zugangsdaten beschrieben und es wird auf diese Seite verlinkt.
 
 == Stufe 3 - Dokumentation
 
